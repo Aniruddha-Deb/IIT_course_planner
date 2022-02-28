@@ -1,4 +1,4 @@
-<program name="cs1">
+<program name="cs1" type="4y">
    <credits>
       <bs>24</bs>
       <eas>19</eas>
@@ -28,12 +28,16 @@
       </bs>
       <pl>
          <course>ELL205</course>
-         <course>MTL103</course>
-         <course>MTL104</course>
-         <course>MTL105</course>
+         <or>
+             <course>MTL103</course>
+             <course>MTL104</course>
+             <course>MTL105</course>
+         </or>
          <course>MTL106</course>
-         <course>PYL102</course>
-         <course>PYL103</course>
+         <or>
+             <course>PYL102</course>
+             <course>PYL103</course>
+         </or>
       </pl>
       <dc>
          <course>COL106</course>
