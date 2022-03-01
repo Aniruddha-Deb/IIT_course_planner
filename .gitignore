@@ -1,2 +1,4 @@
-data
+data/courses_offered_raw
+data/courses_offered
+data/anon_mapping.csv
 .ipynb_checkpoints
