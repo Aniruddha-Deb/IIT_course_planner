@@ -1,0 +1,6 @@
+// A Simple Graph
+digraph {
+	A [label="Node A"]
+	B [label="Node B"]
+	A -> B
+}
