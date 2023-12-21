@@ -1,0 +1,148 @@
+{
+    "code": "AM1",
+    "name": "Bachelor of Technology in Engineering and Computational Mechanics",
+    "dual": false,
+    "credits": {
+        "BS": 24,
+        "EAS": 19,
+        "HuSS": 15,
+        "PL": 12.5,
+        "DC": 65.5,
+        "DE": 12.0,
+        "OC": 10.0
+    },
+    "courses": {
+        "PL": [
+            "MTL107",
+            "COL106",
+            "ELL201"
+        ],
+        "DC": [
+            "APL101",
+            "MLL100",
+            "APL103",
+            "APL104",
+            "APL106",
+            "APL203",
+            "APL205",
+            "APL206",
+            "APL207",
+            "AMP262",
+            "APL302",
+            "APL311",
+            "APL321",
+            "APL331",
+            "APL361",
+            "APL380",
+            "APL390",
+            "APL405",
+            "APL410",
+            "APD411"
+        ],
+        "DE": [
+            "APV303",
+            "APL306",
+            "APL340",
+            "APL402",
+            "APL411",
+            "APD412",
+            "APL412",
+            "APL415",
+            "APL421",
+            "APL422",
+            "APL424",
+            "APL431",
+            "APL432",
+            "APL433",
+            "APL434",
+            "APL435",
+            "APL440",
+            "APL450",
+            "APL452",
+            "APL491",
+            "APL701",
+            "APL713",
+            "APL715",
+            "APL736",
+            "ALP737",
+            "APL740",
+            "APL742",
+            "APL744",
+            "APL745",
+            "APL747",
+            "APL764",
+            "APL765",
+            "APL771",
+            "ELL715",
+            "ELL794",
+            "APL805",
+            "COL216",
+            "COL334",
+            "COL341",
+            "COL333",
+            "COL362",
+            "MTL180",
+            "MTL290",
+            "MTL342",
+            "MTL458",
+            "MTL415"
+        ]
+    },
+    "recommended": [
+        [
+            "ELL101",
+            "ELP101",
+            "MCP100",
+            "PYL101",
+            "MTL100",
+            "PYP100",
+            "MCP101"
+        ],
+        [
+            "APL100",
+            "COL100",
+            "CML101",
+            "MTL101",
+            "CMP100"
+        ],
+        [
+            "MLL100",
+            "APL106",
+            "APL104",
+            "SBL100"
+        ],
+        [
+            "CVL100",
+            "MTL107",
+            "ELL201",
+            "COL106",
+            "APL206",
+            "APL103"
+        ],
+        [
+            "APL203",
+            "APL302",
+            "AMP262",
+            "APL207",
+            "APL205",
+            "APL380"
+        ],
+        [
+            "APL311",
+            "APL405",
+            "APL331",
+            "APL321",
+            "OC"
+        ],
+        [
+            "APL361",
+            "DE",
+            "APL410",
+            "APD411"
+        ],
+        [
+            "DE",
+            "OC"
+        ]
+    ]
+}

@@ -71,13 +71,21 @@ def get_all_programme_details():
             temp = "\n".join(curr_course["body"])
             curr_course['body'] = list(map(lambda x : x.strip(), temp.split('\n')))
 
+
             pdf = PDF(COS, pages=[page_i-1], pdf_text_extraction=True, detect_rotation=False)
             tables = pdf.extract_tables(ocr=ocr, implicit_rows=False, borderless_tables=False, min_confidence=50)
             edf = tables[page_i-1][0].df
 
-            recommended = []
+            recommended = [
+                    ["ELL101", "ELP101", "MCP100", "PYL101", "MTL100", "PYP100", "MCP101"],
+                    ["APL100", "COL100", "CML101", "MTL101", "CMP100"]
+                ]
             
-            for col in [3,4,8,11,14,17,20,23]:
+            cols = [8,11,14,17,20,23]
+            if curr_course['header'][1].startswith('Dual Degree Programme'):
+                cols += [26, 29]
+
+            for col in cols:
                 courses = set()
                 for course in edf.iloc[:,col]:
                     if not course:
@@ -105,8 +113,6 @@ def get_all_programme_details():
     pdf_doc.close()
     print(len(all_courses))
 
-    curr_course
-
     return all_courses
 
 def parse_course(course):
@@ -114,6 +120,7 @@ def parse_course(course):
     template = {
             "code": "CS1",
             "name": "B.Tech in Computer Science and Engineeering",
+            "dual": False,
             "credits" : {
                 "BS": 24,
                 "EAS": 19,
@@ -122,19 +129,11 @@ def parse_course(course):
                 "DC": 0,
                 "DE": 0,
                 "OC": 0,
-                "MTech" : {
-                    "PC": 0,
-                    "PE": 0,
-                }
             },
             "courses": {
                 "PL": [],
                 "DC": [],
                 "DE": [],
-                "MTech": {
-                    "PC": [],
-                    "PE": []
-                }
             },
             "recommended" : []
         }
@@ -144,6 +143,16 @@ def parse_course(course):
     if template['code'] == 'DD1':
         return template
 
+    dual = course['header'][1].startswith('Dual Degree Programme')
+    if dual:
+        template['name'] = ' '.join(course['header'][1].split(' ')[3:]) + course['header'][2]
+        template['credits']['PC'] = 0
+        template['credits']['PE'] = 0
+        template['courses']['PC'] = []
+        template['courses']['PE'] = []
+
+    template['dual'] = dual
+
     i = 0
     cbody = course['body']
 
@@ -151,7 +160,10 @@ def parse_course(course):
         'Programme-linked Courses': 'PL',
         'Departmental Core': 'DC',
         'Departmental Electives': 'DE',
-        'Open Category Courses': 'OC'
+        'Open Category Courses': 'OC',
+        'Programme Core Courses': 'PC',
+        'Programme Elective Courses': 'PE',
+        'Programme Electives Courses': 'PE'
     }
     
     while i < len(cbody) :
@@ -172,8 +184,9 @@ def parse_course(course):
     course_map = {
         'Programme-Linked Basic / Engineering Arts / Sciences Core' : 'PL',
         'Departmental Core': 'DC',
-        'Departmental Electives': 'DE'
-        # TODO Mtech
+        'Departmental Electives': 'DE',
+        'Program Core': 'PC',
+        'Program Electives' : 'PE'
     }
 
     i = 28
@@ -185,6 +198,8 @@ def parse_course(course):
                     if cbody[i] == '':
                         continue
                     if cbody[i] == "Total Credits":
+                        break
+                    if cbody[i] == "Program Core":
                         break
                     groups = re.match(COURSE_PATTERN, cbody[i])
                     if groups:
@@ -211,8 +226,11 @@ def main():
     all_courses = get_all_programme_details()
     parsed_courses = parse_all_courses(all_courses)
 
-    with open(sys.argv[2], 'w') as outfile:
-        json.dump(parsed_courses, outfile, ensure_ascii=False, indent=4)
+    out_dir = sys.argv[2]
+
+    for (cname, course) in parsed_courses.items():
+        with open(out_dir + "/" + cname + ".json", 'w') as outfile:
+            json.dump(course, outfile, ensure_ascii=False, indent=4)
 
 if __name__ == "__main__":
     main()

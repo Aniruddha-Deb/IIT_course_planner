@@ -1,0 +1,151 @@
+{
+    "code": "MS1",
+    "name": "Bachelor of Technology in Materials Engineering",
+    "dual": false,
+    "credits": {
+        "BS": 24,
+        "EAS": 19,
+        "HuSS": 15,
+        "PL": 11.0,
+        "DC": 64.0,
+        "DE": 12.0,
+        "OC": 10.0
+    },
+    "courses": {
+        "PL": [
+            "MTL107",
+            "APL104",
+            "CLL110"
+        ],
+        "DC": [
+            "MLL100",
+            "MLL102",
+            "MLL103",
+            "MLL104",
+            "MLL202",
+            "MLL212",
+            "MLL242",
+            "MLL251",
+            "MLL253",
+            "MLL371",
+            "MLL213",
+            "MLL262",
+            "MLL452",
+            "MLL372",
+            "MLL264",
+            "MLS302",
+            "MLP352",
+            "MLP354",
+            "MLP473",
+            "MLL181",
+            "MLD411"
+        ],
+        "DE": [
+            "MLS300",
+            "MLL361",
+            "MLP362",
+            "MLL363",
+            "MLD412",
+            "MLD413",
+            "MLD414",
+            "MLL203",
+            "MLL341",
+            "MLL342",
+            "MLL343",
+            "MLL344",
+            "MLL345",
+            "MLL364",
+            "MLL365",
+            "MLL366",
+            "MLL714",
+            "MLL715",
+            "MLL716",
+            "MLL717",
+            "MLL729",
+            "MLL730",
+            "MLL732",
+            "MLL733",
+            "MLL734",
+            "MLL735",
+            "MLL736",
+            "MLL738",
+            "MLL740",
+            "MLL742",
+            "MLL744",
+            "MLL746",
+            "MLL729",
+            "MLL733",
+            "MLL735",
+            "MLL741",
+            "PYL704",
+            "MLL748",
+            "MLL750",
+            "MLL752",
+            "MLL760",
+            "PHL704",
+            "CML723",
+            "APL736",
+            "CML734",
+            "ELL212"
+        ]
+    },
+    "recommended": [
+        [
+            "ELL101",
+            "ELP101",
+            "MCP100",
+            "PYL101",
+            "MTL100",
+            "PYP100",
+            "MCP101"
+        ],
+        [
+            "APL100",
+            "COL100",
+            "CML101",
+            "MTL101",
+            "CMP100"
+        ],
+        [
+            "APL104",
+            "HUL2XX",
+            "SBL100",
+            "MLL100"
+        ],
+        [
+            "MLL202",
+            "MLL104",
+            "MLL102",
+            "MLL242",
+            "MLL212"
+        ],
+        [
+            "CVL100",
+            "MLL253",
+            "DE",
+            "MLL213",
+            "MLL371"
+        ],
+        [
+            "MLS302",
+            "MLP352",
+            "MLL372",
+            "DE",
+            "HUL2XX",
+            "MLL264",
+            "MLL452"
+        ],
+        [
+            "MLL262",
+            "MLP473",
+            "DE",
+            "MLD411",
+            "MLL181"
+        ],
+        [
+            "HUL3XX",
+            "DE",
+            "OC"
+        ]
+    ]
+}
