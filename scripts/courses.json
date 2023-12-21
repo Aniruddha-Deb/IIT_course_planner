@@ -1,0 +1,2845 @@
+{
+    "AM1": {
+        "code": "AM1",
+        "name": "Bachelor of Technology in Engineering and Computational Mechanics",
+        "credits": {
+            "BS": 24,
+            "EAS": 19,
+            "HuSS": 15,
+            "PL": 12.5,
+            "DC": 65.5,
+            "DE": 12.0,
+            "OC": 10.0,
+            "MTech": {
+                "PC": 0,
+                "PE": 0
+            }
+        },
+        "courses": {
+            "PL": [
+                "MTL107",
+                "COL106",
+                "ELL201"
+            ],
+            "DC": [
+                "APL101",
+                "MLL100",
+                "APL103",
+                "APL104",
+                "APL106",
+                "APL203",
+                "APL205",
+                "APL206",
+                "APL207",
+                "AMP262",
+                "APL302",
+                "APL311",
+                "APL321",
+                "APL331",
+                "APL361",
+                "APL380",
+                "APL390",
+                "APL405",
+                "APL410",
+                "APD411"
+            ],
+            "DE": [
+                "APV303",
+                "APL306",
+                "APL340",
+                "APL402",
+                "APL411",
+                "APD412",
+                "APL412",
+                "APL415",
+                "APL421",
+                "APL422",
+                "APL424",
+                "APL431",
+                "APL432",
+                "APL433",
+                "APL434",
+                "APL435",
+                "APL440",
+                "APL450",
+                "APL452",
+                "APL491",
+                "APL701",
+                "APL713",
+                "APL715",
+                "APL736",
+                "ALP737",
+                "APL740",
+                "APL742",
+                "APL744",
+                "APL745",
+                "APL747",
+                "APL764",
+                "APL765",
+                "APL771",
+                "ELL715",
+                "ELL794",
+                "APL805",
+                "COL216",
+                "COL334",
+                "COL341",
+                "COL333",
+                "COL362",
+                "MTL180",
+                "MTL290",
+                "MTL342",
+                "MTL458",
+                "MTL415"
+            ],
+            "MTech": {
+                "PC": [],
+                "PE": []
+            }
+        },
+        "recommended": [
+            [
+                "CML101",
+                "COL100",
+                "MTL101",
+                "CMP100",
+                "NEN101",
+                "APL100",
+                "NLN101"
+            ],
+            [
+                "CML101",
+                "COL100",
+                "MTL101",
+                "CMP100",
+                "NEN101",
+                "APL100",
+                "NLN101"
+            ],
+            [
+                "APL106",
+                "SBL100",
+                "APL104",
+                "MLL100"
+            ],
+            [
+                "CVL100",
+                "ELL201",
+                "APL206",
+                "APL103",
+                "MTL107",
+                "COL106"
+            ],
+            [
+                "APL207",
+                "AMP262",
+                "APL302",
+                "APL203",
+                "APL205",
+                "APL380"
+            ],
+            [
+                "APL321",
+                "OC",
+                "APL311",
+                "APL331",
+                "APL405"
+            ],
+            [
+                "DE",
+                "APL361",
+                "APL410",
+                "APD411"
+            ],
+            [
+                "DE",
+                "OC"
+            ]
+        ]
+    },
+    "BB1": {
+        "code": "BB1",
+        "name": "Bachelor of Technology in Biochemical Engineering and Biotechnology",
+        "credits": {
+            "BS": 24,
+            "EAS": 19,
+            "HuSS": 15,
+            "PL": 11.0,
+            "DC": 69.0,
+            "DE": 10.0,
+            "OC": 10.0,
+            "MTech": {
+                "PC": 0,
+                "PE": 0
+            }
+        },
+        "courses": {
+            "PL": [
+                "MLL100",
+                "CLL110",
+                "MTL102"
+            ],
+            "DC": [
+                "BBL131",
+                "BBL132",
+                "BBL133",
+                "BBL231",
+                "BBL331",
+                "BBP332",
+                "BBL431",
+                "BBL432",
+                "BBL433",
+                "BBL434",
+                "BBD451",
+                "BBL731",
+                "BBL732",
+                "BBL733",
+                "CLL122",
+                "CLL231",
+                "CLL251",
+                "CLL252",
+                "CLL261",
+                "CLP301",
+                "CLP302"
+            ],
+            "DE": [
+                "BBL341",
+                "BBL342",
+                "BBL343",
+                "BBV350",
+                "BBD351",
+                "BBL441",
+                "BBL442",
+                "BBL443",
+                "BBL444",
+                "BBL445",
+                "BBL446",
+                "BBL447",
+                "BBD452",
+                "CLL477",
+                "BBL734",
+                "BBL735",
+                "BBL736",
+                "BBL737",
+                "BBL740",
+                "BBL741",
+                "BBL742",
+                "BBL743",
+                "BBL744",
+                "BBL745",
+                "BBL746",
+                "BBL747",
+                "BBL748",
+                "BBL749",
+                "BBL750",
+                "BBL751",
+                "BBL752",
+                "BBL754",
+                "BBL756",
+                "BBL757",
+                "CLL728"
+            ],
+            "MTech": {
+                "PC": [],
+                "PE": []
+            }
+        },
+        "recommended": [
+            [
+                "NLN101",
+                "COL100",
+                "NEN101",
+                "CML101"
+            ],
+            [
+                "NLN101",
+                "COL100",
+                "NEN101",
+                "CML101"
+            ],
+            [
+                "MLL100",
+                "BBL132",
+                "SBL100",
+                "CLL110"
+            ],
+            [
+                "CVL100",
+                "CLL251",
+                "CLL122",
+                "MTL102",
+                "CLL231",
+                "HUL2XX"
+            ],
+            [
+                "CLP301",
+                "BBL231",
+                "CLL261",
+                "CLL252",
+                "BBL331",
+                "BBP332",
+                "HUL2XX"
+            ],
+            [
+                "BBL432",
+                "BBL431",
+                "CLP302",
+                "BBL434",
+                "BBL433",
+                "HUL2XX"
+            ],
+            [
+                "HUL3XX",
+                "OC",
+                "BED451",
+                "BBL732",
+                "BBL733",
+                "BBL731"
+            ],
+            [
+                "DE",
+                "OC"
+            ]
+        ]
+    },
+    "CH1": {
+        "code": "CH1",
+        "name": "Bachelor of Technology in Chemical Engineering",
+        "credits": {
+            "BS": 24,
+            "EAS": 19,
+            "HuSS": 15,
+            "PL": 7.0,
+            "DC": 67.0,
+            "DE": 12.0,
+            "OC": 10.0,
+            "MTech": {
+                "PC": 0,
+                "PE": 0
+            }
+        },
+        "courses": {
+            "PL": [
+                "MLL100",
+                "CML103"
+            ],
+            "DC": [
+                "CLL110",
+                "CLL111",
+                "CLL113",
+                "CLL121",
+                "CLL122",
+                "CLL141",
+                "CLL222",
+                "CLL231",
+                "CLL251",
+                "CLL252",
+                "CLL261",
+                "CLL271",
+                "CLP301",
+                "CLP302",
+                "CLP303",
+                "CLL331",
+                "CLL352",
+                "CLL361",
+                "CLL371",
+                "CLD411"
+            ],
+            "DE": [
+                "CLL133",
+                "CLL296",
+                "CLL390",
+                "CLL402",
+                "CLD412",
+                "CLD413",
+                "CLD414",
+                "CLD415",
+                "CLL475",
+                "CLL477",
+                "CLL705",
+                "CLL706",
+                "CLL707",
+                "CLL720",
+                "CLL721",
+                "CLL722",
+                "CLL723",
+                "CLL724",
+                "CLL725",
+                "CLL726",
+                "CLL727",
+                "CLL728",
+                "CLL729",
+                "CLL730",
+                "CLL731",
+                "CLL732",
+                "CLL733",
+                "CLL734",
+                "CLL735",
+                "CLL736",
+                "CLL742",
+                "CLL743",
+                "CLL760",
+                "CLL761",
+                "CLL762",
+                "CLL766",
+                "CLL767",
+                "CLL768",
+                "CLL769",
+                "CLL770",
+                "CLL771",
+                "CLL772",
+                "CLL773",
+                "CLL774",
+                "CLL775",
+                "CLL776",
+                "CLL777",
+                "CLL778",
+                "CLL779",
+                "CLL780",
+                "CLL781",
+                "CLL782",
+                "CLL783",
+                "CLL784",
+                "CLL785",
+                "CLL786",
+                "CLL787",
+                "CLL788",
+                "CLL789",
+                "CLL791",
+                "CLL792",
+                "CLL793",
+                "CLL794",
+                "CLV796",
+                "CLV797",
+                "CLL798",
+                "CLL799"
+            ],
+            "MTech": {
+                "PC": [],
+                "PE": []
+            }
+        },
+        "recommended": [
+            [
+                "CML101",
+                "COL100",
+                "MTL101",
+                "CMP100",
+                "NEN101",
+                "APL100",
+                "NLN101"
+            ],
+            [
+                "CML101",
+                "COL100",
+                "MTL101",
+                "CMP100",
+                "NEN101",
+                "APL100",
+                "NLN101"
+            ],
+            [
+                "CLL111",
+                "CLL110",
+                "CLL113",
+                "HUL2XX"
+            ],
+            [
+                "CLL251",
+                "SBL100",
+                "CLL122",
+                "MLL100",
+                "CLL231",
+                "CLL121"
+            ],
+            [
+                "CVL100",
+                "CLL331",
+                "CLP301",
+                "CLL261",
+                "CLL222",
+                "CLL252",
+                "CLL141"
+            ],
+            [
+                "CLL371",
+                "CLL352",
+                "CLP302",
+                "CLL271",
+                "CLL361",
+                "DE",
+                "HUL2XX"
+            ],
+            [
+                "CLL371",
+                "OC",
+                "CLD411",
+                "DE",
+                "HUL2XX"
+            ],
+            [
+                "DE",
+                "HUL3XX",
+                "OC"
+            ]
+        ]
+    },
+    "CH7": {
+        "code": "CH7",
+        "name": "Dual Degree Programme : Bachelor of Technology and Master of Technology ",
+        "credits": {
+            "BS": 24,
+            "EAS": 19,
+            "HuSS": 15,
+            "PL": 7.0,
+            "DC": 63.0,
+            "DE": 9.0,
+            "OC": 3.0,
+            "MTech": {
+                "PC": 0,
+                "PE": 0
+            }
+        },
+        "courses": {
+            "PL": [
+                "MLL100",
+                "CML103"
+            ],
+            "DC": [
+                "CLL110",
+                "CLL111",
+                "CLL113",
+                "CLL121",
+                "CLL122",
+                "CLL141",
+                "CLL222",
+                "CLL231",
+                "CLL251",
+                "CLL252",
+                "CLL261",
+                "CLL271",
+                "CLP301",
+                "CLP302",
+                "CLP303",
+                "CLL331",
+                "CLL352",
+                "CLL361",
+                "CLL371"
+            ],
+            "DE": [
+                "CLL133",
+                "CLL296",
+                "CLL390",
+                "CLL402",
+                "CLL475",
+                "CLL477",
+                "CLL705",
+                "CLL706",
+                "CLL707",
+                "CLL720",
+                "CLL721",
+                "CLL722",
+                "CLL723",
+                "CLL724",
+                "CLL725",
+                "CLL726",
+                "CLL727",
+                "CLL728",
+                "CLL729",
+                "CLL730",
+                "CLL732",
+                "CLL734",
+                "CLL735",
+                "CLL736",
+                "CLL742",
+                "CLL743",
+                "CLL760",
+                "CLL761",
+                "CLL762",
+                "CLL766",
+                "CLL767",
+                "CLL768",
+                "CLL769",
+                "CLL770",
+                "CLL771",
+                "CLL772",
+                "CLL773",
+                "CLL774",
+                "CLL775",
+                "CLL776",
+                "CLL777",
+                "CLL778",
+                "CLL779",
+                "CLL780",
+                "CLL781",
+                "CLL782",
+                "CLL783",
+                "CLL784",
+                "CLL785",
+                "CLL786",
+                "CLL787",
+                "CLL788",
+                "CLL789",
+                "CLL791",
+                "CLL792",
+                "CLL793",
+                "CLL794",
+                "CLV796",
+                "CLV797",
+                "CLL798",
+                "CLL799",
+                "CLL703",
+                "CLL731",
+                "CLL733",
+                "CLD880",
+                "CLD881",
+                "CLD882"
+            ],
+            "MTech": {
+                "PC": [],
+                "PE": []
+            }
+        },
+        "recommended": [
+            [
+                "CML101",
+                "COL100",
+                "MTL101",
+                "CMP100",
+                "NEN101",
+                "APL100",
+                "NLN101"
+            ],
+            [
+                "CML101",
+                "COL100",
+                "MTL101",
+                "CMP100",
+                "NEN101",
+                "APL100",
+                "NLN101"
+            ],
+            [
+                "CLL110",
+                "CLL111"
+            ],
+            [
+                "CVL100",
+                "CLL121",
+                "CLL703",
+                "CLL222"
+            ],
+            [
+                "CVL100",
+                "CLL331",
+                "CLP301",
+                "CLL371",
+                "CLL703",
+                "CLL222",
+                "CLL252"
+            ],
+            [
+                "CLL371",
+                "CLL352",
+                "CLL703",
+                "CLP302",
+                "CLL271",
+                "DE",
+                "HUL2XX"
+            ],
+            [
+                "OC",
+                "CLL703",
+                "CLP303",
+                "CLL271",
+                "DE",
+                "HUL2XX"
+            ],
+            [
+                "HUL3XX",
+                "CLL731",
+                "CLD880",
+                "CLL733",
+                "DE"
+            ]
+        ]
+    },
+    "CE1": {
+        "code": "CE1",
+        "name": "Bachelor of Technology in Civil Engineering",
+        "credits": {
+            "BS": 24,
+            "EAS": 19,
+            "HuSS": 15,
+            "PL": 10.0,
+            "DC": 66.0,
+            "DE": 14.0,
+            "OC": 10.0,
+            "MTech": {
+                "PC": 0,
+                "PE": 0
+            }
+        },
+        "courses": {
+            "PL": [
+                "APL107",
+                "APL108"
+            ],
+            "DC": [
+                "CVL111",
+                "CVL121",
+                "CVP121",
+                "CVL141",
+                "CVL212",
+                "CVL222",
+                "CVP222",
+                "CVL242",
+                "CVP242",
+                "CVL243",
+                "CVP243",
+                "CVL244",
+                "CVL245",
+                "CVL261",
+                "CVP261",
+                "CVL281",
+                "CVP281",
+                "CVL282",
+                "CVL321",
+                "CVP321",
+                "CVL341",
+                "CVL342",
+                "CVP342",
+                "CVL381",
+                "CVD411",
+                "CVP441"
+            ],
+            "DE": [
+                "CVL284",
+                "CVL311",
+                "CVL312",
+                "CVL313",
+                "CVL344",
+                "CVL361",
+                "CVL382",
+                "CVL383",
+                "CVL384",
+                "CVL385",
+                "CVL386",
+                "CVD412",
+                "CVL421",
+                "CVL422",
+                "CVL423",
+                "CVL424",
+                "CVL431",
+                "CVL432",
+                "CVL433",
+                "CVP434",
+                "CVL435",
+                "CVL441",
+                "CVL442",
+                "CVL443",
+                "CVL461",
+                "CVL462",
+                "CVL481",
+                "CVL482",
+                "CVL483",
+                "CVP484",
+                "CVL485",
+                "CVL486",
+                "CVL721",
+                "CVL724",
+                "CVL727",
+                "CVL728",
+                "CVL740",
+                "CVL741",
+                "CVL742",
+                "CVL743",
+                "CVL744",
+                "CVL746",
+                "CVL763",
+                "CVL765",
+                "CVL766",
+                "CVL768",
+                "CVL769",
+                "CVL770",
+                "CVL771",
+                "CVL820",
+                "CVL822",
+                "CVL823",
+                "CVL824",
+                "CVL837",
+                "CVL841",
+                "CVL842",
+                "CVL847",
+                "CVL857",
+                "CVL858",
+                "CVL859",
+                "CVL862",
+                "CVL866"
+            ],
+            "MTech": {
+                "PC": [],
+                "PE": []
+            }
+        },
+        "recommended": [
+            [
+                "CML101",
+                "COL100",
+                "MTL101",
+                "CMP100",
+                "NEN101",
+                "APL100"
+            ],
+            [
+                "CML101",
+                "COL100",
+                "MTL101",
+                "CMP100",
+                "NEN101",
+                "APL100"
+            ],
+            [
+                "CVP121",
+                "CVL141",
+                "APL107",
+                "CVL111",
+                "APL108",
+                "HUL2XX"
+            ],
+            [
+                "CVP242",
+                "CVP281",
+                "CVP261",
+                "CVP222",
+                "HUL2XX"
+            ],
+            [
+                "CVL282",
+                "SBL100",
+                "CVP243",
+                "CVP321",
+                "CVL245"
+            ],
+            [
+                "CVL381",
+                "CVP342",
+                "CVL244",
+                "CVL212",
+                "HUL2XX"
+            ],
+            [
+                "DE",
+                "HUL3XX",
+                "CVD411"
+            ],
+            [
+                "DE",
+                "OC"
+            ]
+        ]
+    },
+    "CS1": {
+        "code": "CS1",
+        "name": "Bachelor of Technology in Computer Science and Engineering",
+        "credits": {
+            "BS": 24,
+            "EAS": 19,
+            "HuSS": 15,
+            "PL": 14.0,
+            "DC": 55.0,
+            "DE": 11.0,
+            "OC": 10.0,
+            "MTech": {
+                "PC": 0,
+                "PE": 0
+            }
+        },
+        "courses": {
+            "PL": [
+                "ELL205",
+                "MTL103",
+                "MTL104",
+                "MTL105",
+                "MTL106",
+                "PYL102",
+                "PYL103"
+            ],
+            "DC": [
+                "COL106",
+                "COL202",
+                "COL215",
+                "COL216",
+                "COL226",
+                "COP290",
+                "COL331",
+                "COL333",
+                "COL334",
+                "COL351",
+                "COL352",
+                "COL362",
+                "COL380",
+                "COD490",
+                "COD492"
+            ],
+            "DE": [
+                "COD300",
+                "COD310",
+                "COL333",
+                "COL341",
+                "COL362",
+                "COP315",
+                "COD494",
+                "COR310",
+                "COS310",
+                "COL703",
+                "COL707",
+                "COL718",
+                "COL719",
+                "COL720",
+                "COL722",
+                "COL724",
+                "COL726",
+                "COL727",
+                "COL728",
+                "COL729",
+                "COL730",
+                "COL731",
+                "COL732",
+                "COL733",
+                "COL740",
+                "COL750",
+                "COL751",
+                "COL752",
+                "COL753",
+                "COL754",
+                "COL755",
+                "COL756",
+                "COL757",
+                "COL758",
+                "COL759",
+                "COL760",
+                "COL761",
+                "COL762",
+                "COL764",
+                "COL765",
+                "COL768",
+                "COL770",
+                "COL772",
+                "COL774",
+                "COL775",
+                "COL776",
+                "COL777",
+                "COL778",
+                "COL780",
+                "COL781",
+                "COL783",
+                "COL785",
+                "COL786",
+                "COL788",
+                "COL828",
+                "COL860",
+                "COL861",
+                "COL862",
+                "COL863",
+                "COL864",
+                "COL865",
+                "COL866",
+                "COL867",
+                "COL868",
+                "COL869",
+                "COL870",
+                "COL871",
+                "COL872",
+                "COL873",
+                "COL874",
+                "COL876",
+                "COL886",
+                "COV877",
+                "COV878",
+                "COV879",
+                "COV880",
+                "COV881",
+                "COV882",
+                "COV883",
+                "COV884",
+                "COV885",
+                "COV886",
+                "COV887",
+                "COV888",
+                "COV889",
+                "SIL765",
+                "SIL769",
+                "SIL801",
+                "SIL802",
+                "SIV813",
+                "SIV861",
+                "SIV864",
+                "SIV895"
+            ],
+            "MTech": {
+                "PC": [],
+                "PE": []
+            }
+        },
+        "recommended": [
+            [
+                "CML101",
+                "COL100",
+                "CMP100",
+                "NEN101",
+                "APL100",
+                "NLN101"
+            ],
+            [
+                "CML101",
+                "COL100",
+                "CMP100",
+                "NEN101",
+                "APL100",
+                "NLN101"
+            ],
+            [
+                "COL106",
+                "COL202",
+                "COL215",
+                "MTL106"
+            ],
+            [
+                "CVL100",
+                "COP290",
+                "ELL205",
+                "COL226",
+                "HUL2XX"
+            ],
+            [
+                "COL351",
+                "COL334",
+                "SBL100",
+                "COL333",
+                "HUL2XX"
+            ],
+            [
+                "COL331",
+                "COL352",
+                "COL380",
+                "HUL2XX"
+            ],
+            [
+                "COD490",
+                "DE",
+                "OC"
+            ],
+            [
+                "DE",
+                "HUL3XX",
+                "OC"
+            ]
+        ]
+    },
+    "CS5": {
+        "code": "CS5",
+        "name": "Dual Degree Programme: Bachelor of Technology and Master of Technology ",
+        "credits": {
+            "BS": 24,
+            "EAS": 19,
+            "HuSS": 15,
+            "PL": 14.0,
+            "DC": 49.0,
+            "DE": 11.0,
+            "OC": 10.0,
+            "MTech": {
+                "PC": 0,
+                "PE": 0
+            }
+        },
+        "courses": {
+            "PL": [
+                "ELL205",
+                "MTL103",
+                "MTL104",
+                "MTL105",
+                "MTL106",
+                "PYL102",
+                "PYL103"
+            ],
+            "DC": [
+                "COL106",
+                "COL202",
+                "COL215",
+                "COL216",
+                "COL226",
+                "COP290",
+                "COL331",
+                "COL333",
+                "COL334",
+                "COL351",
+                "COL352",
+                "COL380"
+            ],
+            "DE": [
+                "COD300",
+                "COD310",
+                "COL333",
+                "COL341",
+                "COL362",
+                "COP315",
+                "COR310",
+                "COS310",
+                "COL707",
+                "COL718",
+                "COL719",
+                "COL720",
+                "COL722",
+                "COL724",
+                "COL727",
+                "COL728",
+                "COL729",
+                "COL730",
+                "COL731",
+                "COL732",
+                "COL733",
+                "COL740",
+                "COL750",
+                "COL751",
+                "COL752",
+                "COL753",
+                "COL754",
+                "COL755",
+                "COL756",
+                "COL757",
+                "COL758",
+                "COL759",
+                "COL760",
+                "COL761",
+                "COL762",
+                "COL764",
+                "COL765",
+                "COL768",
+                "COL770",
+                "COL772",
+                "COL774",
+                "COL775",
+                "COL776",
+                "COL777",
+                "COL778",
+                "COL780",
+                "COL781",
+                "COL783",
+                "COL785",
+                "COL786",
+                "COL788",
+                "COL828",
+                "COL829",
+                "COL851",
+                "COL852",
+                "COL860",
+                "COL861",
+                "COL862",
+                "COL863",
+                "COL864",
+                "COL865",
+                "COL866",
+                "COL867",
+                "COL868",
+                "COL869",
+                "COL870",
+                "COL871",
+                "COL872",
+                "COL873",
+                "COL874",
+                "COL876",
+                "COV877",
+                "COV878",
+                "COV879",
+                "COV880",
+                "COV881",
+                "COV882",
+                "COV883",
+                "COV884",
+                "COV885",
+                "COV886",
+                "COV887",
+                "COV888",
+                "COV889",
+                "SIL765",
+                "SIL769",
+                "SIL801",
+                "SIL802",
+                "SIV813",
+                "SIV861",
+                "SIV864",
+                "SIV895",
+                "COL703",
+                "COL726",
+                "COD891",
+                "COD892",
+                "COD893"
+            ],
+            "MTech": {
+                "PC": [],
+                "PE": []
+            }
+        },
+        "recommended": [
+            [
+                "CML101",
+                "COL100",
+                "MTL101",
+                "NEN101",
+                "APL100",
+                "NLN100",
+                "NLN101"
+            ],
+            [
+                "CML101",
+                "COL100",
+                "MTL101",
+                "NEN101",
+                "APL100",
+                "NLN101"
+            ],
+            [
+                "ELL205",
+                "COL226",
+                "HUL2XX"
+            ],
+            [
+                "CVL100",
+                "COP290",
+                "ELL205",
+                "COL226",
+                "HUL2XX"
+            ],
+            [
+                "COL703",
+                "COL334",
+                "SBL100",
+                "HUL2XX"
+            ],
+            [
+                "SBL100",
+                "COL331",
+                "COL380",
+                "COL703",
+                "HUL2XX"
+            ],
+            [
+                "COL703",
+                "DE",
+                "OC"
+            ],
+            [
+                "COL703",
+                "COL726"
+            ]
+        ]
+    },
+    "DD1": {
+        "code": "DD1",
+        "name": "Bachelor of Design (B.Des.)",
+        "credits": {
+            "BS": 24,
+            "EAS": 19,
+            "HuSS": 15,
+            "PL": 0,
+            "DC": 0,
+            "DE": 0,
+            "OC": 0,
+            "MTech": {
+                "PC": 0,
+                "PE": 0
+            }
+        },
+        "courses": {
+            "PL": [],
+            "DC": [],
+            "DE": [],
+            "MTech": {
+                "PC": [],
+                "PE": []
+            }
+        },
+        "recommended": []
+    },
+    "EE1": {
+        "code": "EE1",
+        "name": "Bachelor of Technology in Electrical Engineering",
+        "credits": {
+            "BS": 24,
+            "EAS": 19,
+            "HuSS": 15,
+            "PL": 15.0,
+            "DC": 60.0,
+            "DE": 10.0,
+            "OC": 10.0,
+            "MTech": {
+                "PC": 0,
+                "PE": 0
+            }
+        },
+        "courses": {
+            "PL": [
+                "COL106",
+                "MTL106",
+                "MCL142",
+                "PYL102"
+            ],
+            "DC": [
+                "ELL201",
+                "ELL202",
+                "ELL203",
+                "ELP203",
+                "ELL205",
+                "ELL211",
+                "ELL212",
+                "ELP212",
+                "ELL225",
+                "ELP225",
+                "ELL302",
+                "ELP302",
+                "ELL303",
+                "ELP303",
+                "ELL304",
+                "ELL305",
+                "ELP305",
+                "ELL311",
+                "ELP311",
+                "ELD411"
+            ],
+            "DE": [
+                "ELL301",
+                "ELL312",
+                "ELL313",
+                "ELL315",
+                "ELL316",
+                "ELL318",
+                "ELL319",
+                "ELL332",
+                "ELL333",
+                "ELL365",
+                "ELL400",
+                "ELL401",
+                "ELL402",
+                "ELL405",
+                "ELL406",
+                "ELL407",
+                "ELL409",
+                "ELL410",
+                "ELL411",
+                "ELL703",
+                "ELL710",
+                "ELL715",
+                "ELL716",
+                "ELL724",
+                "ELL725",
+                "ELL730",
+                "ELL738",
+                "ELL740",
+                "ELL758",
+                "ELL765",
+                "ELS310"
+            ],
+            "MTech": {
+                "PC": [],
+                "PE": []
+            }
+        },
+        "recommended": [
+            [
+                "CML101",
+                "COL100",
+                "MTL101",
+                "CMP100",
+                "NEN101",
+                "APL100",
+                "NLN101"
+            ],
+            [
+                "CML101",
+                "COL100",
+                "MTL101",
+                "CMP100",
+                "NEN101",
+                "APL100",
+                "NLN101"
+            ],
+            [
+                "ELL203",
+                "ELL205",
+                "ELL202",
+                "COL106"
+            ],
+            [
+                "ELP203",
+                "ELL212",
+                "ELL201",
+                "SBL100",
+                "MTL106",
+                "ELL225"
+            ],
+            [
+                "CVL100",
+                "ELL304",
+                "ELL311",
+                "ELL302",
+                "ELL305",
+                "ELP225",
+                "ELP212"
+            ],
+            [
+                "PYL102",
+                "ELL303",
+                "ELP305",
+                "MCL142",
+                "DE",
+                "HUL2XX",
+                "ELP302"
+            ],
+            [
+                "ELD411",
+                "ELP303",
+                "OC",
+                "DE",
+                "HUL2XX"
+            ],
+            [
+                "DE",
+                "HUL3XX",
+                "OC"
+            ]
+        ]
+    },
+    "EE3": {
+        "code": "EE3",
+        "name": "Bachelor of Technology in Electrical Engineering Power and Automation",
+        "credits": {
+            "BS": 24,
+            "EAS": 19,
+            "HuSS": 15,
+            "PL": 15.0,
+            "DC": 60.0,
+            "DE": 10.0,
+            "OC": 10.0,
+            "MTech": {
+                "PC": 0,
+                "PE": 0
+            }
+        },
+        "courses": {
+            "PL": [
+                "COL106",
+                "MTL106",
+                "MCL142",
+                "PYL102"
+            ],
+            "DC": [
+                "ELL201",
+                "ELL202",
+                "ELL203",
+                "ELP203",
+                "ELL205",
+                "ELL225",
+                "ELP225",
+                "ELL231",
+                "ELL302",
+                "ELP302",
+                "ELL303",
+                "ELP303",
+                "ELL304",
+                "ELL305",
+                "ELP305",
+                "ELL332",
+                "ELP332",
+                "ELL363",
+                "ELL365",
+                "ELD431"
+            ],
+            "DE": [
+                "ELL301",
+                "ELL311",
+                "ELL319",
+                "ELL333",
+                "ELL334",
+                "ELL400",
+                "ELL401",
+                "ELL405",
+                "ELL406",
+                "ELL407",
+                "ELL409",
+                "ELL410",
+                "ELL417",
+                "ELL431",
+                "ELL436",
+                "ELL437",
+                "ELL453",
+                "ELL703",
+                "ELL715",
+                "ELL724",
+                "ELL730",
+                "ELL758",
+                "ELL765",
+                "ELS330"
+            ],
+            "MTech": {
+                "PC": [],
+                "PE": []
+            }
+        },
+        "recommended": [
+            [
+                "CML101",
+                "COL100",
+                "MTL101",
+                "CMP100",
+                "NEN101",
+                "APL100",
+                "NLN101"
+            ],
+            [
+                "CML101",
+                "COL100",
+                "MTL101",
+                "CMP100",
+                "NEN101",
+                "APL100",
+                "NLN101"
+            ],
+            [
+                "ELL203",
+                "ELL205",
+                "ELL202",
+                "COL106"
+            ],
+            [
+                "CVL100",
+                "ELP203",
+                "ELL201",
+                "ELL231",
+                "MTL106",
+                "ELL225",
+                "HUL2XX"
+            ],
+            [
+                "ELL304",
+                "ELL302",
+                "ELL305",
+                "DE",
+                "ELP225",
+                "HUL2XX"
+            ],
+            [
+                "PYL102",
+                "ELL303",
+                "ELP305",
+                "ELL365",
+                "MCL142",
+                "ELL332",
+                "ELP302"
+            ],
+            [
+                "ELP332",
+                "ELP303",
+                "ELD431",
+                "OC",
+                "ELL363",
+                "HUL2XX"
+            ],
+            [
+                "DE",
+                "HUL3XX",
+                "OC"
+            ]
+        ]
+    },
+    "ES1": {
+        "code": "ES1",
+        "name": "Bachelor of Technology in Energy Engineering",
+        "credits": {
+            "BS": 24,
+            "EAS": 19,
+            "HuSS": 15,
+            "PL": 12.0,
+            "DC": 67.0,
+            "DE": 10.0,
+            "OC": 10.0,
+            "MTech": {
+                "PC": 0,
+                "PE": 0
+            }
+        },
+        "courses": {
+            "PL": [
+                "MCL140",
+                "MCL242",
+                "MLL100"
+            ],
+            "DC": [
+                "APL105",
+                "ESL100",
+                "ESL260",
+                "ESL220",
+                "ESL261",
+                "ESL200",
+                "ESL262",
+                "ESL280",
+                "ESL263",
+                "ESL370",
+                "ESL341",
+                "ESL371",
+                "ESL361",
+                "ESL373",
+                "ESL352",
+                "ESP260",
+                "ESP300",
+                "ESL372",
+                "ESL390",
+                "ESD400",
+                "ESL400"
+            ],
+            "DE": [
+                "ESL300",
+                "ESL320",
+                "ESL330",
+                "ESL331",
+                "ESL342",
+                "ESL351",
+                "ESL360",
+                "ESL374",
+                "ESL375",
+                "ESL376",
+                "ESL377",
+                "ESL380",
+                "ESL381",
+                "ESL382",
+                "ESL410",
+                "ESL420",
+                "ESL450",
+                "ESL480",
+                "ESL481",
+                "ESL490",
+                "ESL732",
+                "ESL738",
+                "ESL739",
+                "ESL742",
+                "ESL746",
+                "ESL749",
+                "ESL750",
+                "ESL753",
+                "ESL755",
+                "ESL756",
+                "ESL762",
+                "ESL768",
+                "ESL769",
+                "ESL774",
+                "ESL776",
+                "ESL784",
+                "ESL791",
+                "ESL796",
+                "ESL798",
+                "ESL845",
+                "ESL855",
+                "ESD406"
+            ],
+            "MTech": {
+                "PC": [],
+                "PE": []
+            }
+        },
+        "recommended": [
+            [
+                "CML101",
+                "COL100",
+                "MTL101",
+                "CMP100",
+                "NEN101",
+                "APL100",
+                "NLN101"
+            ],
+            [
+                "CML101",
+                "COL100",
+                "MTL101",
+                "CMP100",
+                "NEN101",
+                "APL100",
+                "NLN101"
+            ],
+            [
+                "CVL100",
+                "ESL341",
+                "ESL200",
+                "ESL261",
+                "HUL2XX"
+            ],
+            [
+                "CVL100",
+                "APL105",
+                "ESL341",
+                "ESL200",
+                "ESL262",
+                "HUL2XX"
+            ],
+            [
+                "ESL352",
+                "CVL100",
+                "ESL390",
+                "ESL341",
+                "ESL263",
+                "MCL242"
+            ],
+            [
+                "ESL352",
+                "ESL400",
+                "ESL390",
+                "ESP260",
+                "ESP300",
+                "ESL371",
+                "HUL2XX"
+            ],
+            [
+                "ESL400",
+                "ESL390",
+                "ESL372",
+                "ESD400",
+                "DE",
+                "HUL2XX"
+            ],
+            [
+                "DE",
+                "OC"
+            ]
+        ]
+    },
+    "MS1": {
+        "code": "MS1",
+        "name": "Bachelor of Technology in Materials Engineering",
+        "credits": {
+            "BS": 24,
+            "EAS": 19,
+            "HuSS": 15,
+            "PL": 11.0,
+            "DC": 64.0,
+            "DE": 12.0,
+            "OC": 10.0,
+            "MTech": {
+                "PC": 0,
+                "PE": 0
+            }
+        },
+        "courses": {
+            "PL": [
+                "MTL107",
+                "APL104",
+                "CLL110"
+            ],
+            "DC": [
+                "MLL100",
+                "MLL102",
+                "MLL103",
+                "MLL104",
+                "MLL202",
+                "MLL212",
+                "MLL242",
+                "MLL251",
+                "MLL253",
+                "MLL371",
+                "MLL213",
+                "MLL262",
+                "MLL452",
+                "MLL372",
+                "MLL264",
+                "MLS302",
+                "MLP352",
+                "MLP354",
+                "MLP473",
+                "MLL181",
+                "MLD411"
+            ],
+            "DE": [
+                "MLS300",
+                "MLL361",
+                "MLP362",
+                "MLL363",
+                "MLD412",
+                "MLD413",
+                "MLD414",
+                "MLL203",
+                "MLL341",
+                "MLL342",
+                "MLL343",
+                "MLL344",
+                "MLL345",
+                "MLL364",
+                "MLL365",
+                "MLL366",
+                "MLL714",
+                "MLL715",
+                "MLL716",
+                "MLL717",
+                "MLL729",
+                "MLL730",
+                "MLL732",
+                "MLL733",
+                "MLL734",
+                "MLL735",
+                "MLL736",
+                "MLL738",
+                "MLL740",
+                "MLL742",
+                "MLL744",
+                "MLL746",
+                "MLL729",
+                "MLL733",
+                "MLL735",
+                "MLL741",
+                "PYL704",
+                "MLL748",
+                "MLL750",
+                "MLL752",
+                "MLL760",
+                "PHL704",
+                "CML723",
+                "APL736",
+                "CML734",
+                "ELL212"
+            ],
+            "MTech": {
+                "PC": [],
+                "PE": []
+            }
+        },
+        "recommended": [
+            [
+                "CML101",
+                "COL100",
+                "MTL101",
+                "CMP100",
+                "NEN101",
+                "APL100",
+                "NLN101"
+            ],
+            [
+                "CML101",
+                "COL100",
+                "MTL101",
+                "CMP100",
+                "NEN101",
+                "APL100",
+                "NLN101"
+            ],
+            [
+                "MLL100",
+                "SBL100",
+                "HUL2XX",
+                "APL104"
+            ],
+            [
+                "MLL104",
+                "MLL212",
+                "MLL242",
+                "MLL102",
+                "MLL202"
+            ],
+            [
+                "CVL100",
+                "MLL253",
+                "MLL371",
+                "MLL213",
+                "DE"
+            ],
+            [
+                "MLL452",
+                "MLL372",
+                "MLL264",
+                "MLS302",
+                "DE",
+                "HUL2XX",
+                "MLP352"
+            ],
+            [
+                "MLD411",
+                "MLL181",
+                "MLL262",
+                "MLP473",
+                "DE"
+            ],
+            [
+                "DE",
+                "HUL3XX",
+                "OC"
+            ]
+        ]
+    },
+    "ME1": {
+        "code": "ME1",
+        "name": "Bachelor of Technology in Mechanical Engineering",
+        "credits": {
+            "BS": 24,
+            "EAS": 19,
+            "HuSS": 15,
+            "PL": 11.0,
+            "DC": 64.0,
+            "DE": 12.0,
+            "OC": 10.0,
+            "MTech": {
+                "PC": 0,
+                "PE": 0
+            }
+        },
+        "courses": {
+            "PL": [
+                "MLL100",
+                "MTL107",
+                "MTL108"
+            ],
+            "DC": [
+                "APL104",
+                "APL106",
+                "MCL111",
+                "MCL131",
+                "MCL140",
+                "MCL201",
+                "MCL211",
+                "MCL212",
+                "MCL231",
+                "MCP231",
+                "MCL241",
+                "MCL242",
+                "MCL261",
+                "MCP301",
+                "MCL311",
+                "MCP331",
+                "MCL361",
+                "MCP401",
+                "MCD411",
+                "MCL431"
+            ],
+            "DE": [
+                "MCD310",
+                "MCL314",
+                "MCL316",
+                "MCL318",
+                "MCL321",
+                "MCL322",
+                "MCL330",
+                "MCL334",
+                "MCL336",
+                "MCL337",
+                "MCL338",
+                "MCL341",
+                "MCL343",
+                "MCL344",
+                "MCL345",
+                "MCL347",
+                "MCL348",
+                "MCL350",
+                "MCL363",
+                "MCL364",
+                "MCL366",
+                "MCL368",
+                "MCL370",
+                "MCL380",
+                "MCV390",
+                "MCD412",
+                "MCL421",
+                "MCL422",
+                "MCL441",
+                "MCL442",
+                "MCL443",
+                "MCL705",
+                "MCL711",
+                "MCL712",
+                "MCL713",
+                "MCL714",
+                "MCL715",
+                "MCL716",
+                "MCL717",
+                "MCL718",
+                "MCL721",
+                "MCL722",
+                "MCL723",
+                "MCL724",
+                "MCL725",
+                "MCL726",
+                "MCL729",
+                "MCL730",
+                "MCL732",
+                "MCL736",
+                "MCL743",
+                "MCL747",
+                "MCL749",
+                "MCL750",
+                "MCL753",
+                "MCL755",
+                "MCL756",
+                "MCL759",
+                "MCL760",
+                "MCL776",
+                "MCL777",
+                "MCL788",
+                "MCL795",
+                "MCL797",
+                "MCL798",
+                "MCL814",
+                "MCL818",
+                "MCL839",
+                "MCL865"
+            ],
+            "MTech": {
+                "PC": [],
+                "PE": []
+            }
+        },
+        "recommended": [
+            [
+                "CML101",
+                "COL100",
+                "MTL101",
+                "CMP100",
+                "NEN101",
+                "APL100",
+                "NLN101"
+            ],
+            [
+                "CML101",
+                "COL100",
+                "MTL101",
+                "CMP100",
+                "NEN101",
+                "APL100",
+                "NLN101"
+            ],
+            [
+                "APL106",
+                "APL104",
+                "MLL100"
+            ],
+            [
+                "SBL100",
+                "MTL108",
+                "MCL201",
+                "MCL131",
+                "HUL2XX"
+            ],
+            [
+                "MCL231",
+                "MCL261",
+                "HUL2XX",
+                "MTL107",
+                "MCL242",
+                "MCP231"
+            ],
+            [
+                "CVL100",
+                "MCP331",
+                "MCL361",
+                "MCP301",
+                "MCL212",
+                "MCL311",
+                "HUL2XX"
+            ],
+            [
+                "MCD411",
+                "OC",
+                "MCL431",
+                "MCP401",
+                "DE"
+            ],
+            [
+                "DE",
+                "HUL3XX",
+                "OC"
+            ]
+        ]
+    },
+    "ME2": {
+        "code": "ME2",
+        "name": "Bachelor of Technology in Production and Industrial Engineering",
+        "credits": {
+            "BS": 24,
+            "EAS": 19,
+            "HuSS": 15,
+            "PL": 11.0,
+            "DC": 66.0,
+            "DE": 12.0,
+            "OC": 10.0,
+            "MTech": {
+                "PC": 0,
+                "PE": 0
+            }
+        },
+        "courses": {
+            "PL": [
+                "MLL100",
+                "MTL107",
+                "MTL108"
+            ],
+            "DC": [
+                "APL104",
+                "MCL111",
+                "MCL132",
+                "MCL133",
+                "MCL134",
+                "MCL135",
+                "MCL136",
+                "MCL141",
+                "MCL201",
+                "MCL211",
+                "MCL212",
+                "MCP232",
+                "MCL261",
+                "MCP261",
+                "MCL262",
+                "MCL311",
+                "MCL331",
+                "MCP332",
+                "MCL361",
+                "MCP361",
+                "MCD411",
+                "MCL431"
+            ],
+            "DE": [
+                "MCD310",
+                "MCL314",
+                "MCL316",
+                "MCL318",
+                "MCL321",
+                "MCL322",
+                "MCL330",
+                "MCL334",
+                "MCL336",
+                "MCL337",
+                "MCL338",
+                "MCL341",
+                "MCL343",
+                "MCL344",
+                "MCL345",
+                "MCL347",
+                "MCL348",
+                "MCL350",
+                "MCL363",
+                "MCL364",
+                "MCL366",
+                "MCL368",
+                "MCL370",
+                "MCL380",
+                "MCV390",
+                "MCD412",
+                "MCL421",
+                "MCL422",
+                "MCL441",
+                "MCL442",
+                "MCL443",
+                "MCL705",
+                "MCL711",
+                "MCL712",
+                "MCL713",
+                "MCL714",
+                "MCL715",
+                "MCL716",
+                "MCL763",
+                "MCL717",
+                "MCL718",
+                "MCL721",
+                "MCL722",
+                "MCL723",
+                "MCL724",
+                "MCL725",
+                "MCL726",
+                "MCL729",
+                "MCL730",
+                "MCL732",
+                "MCL736",
+                "MCL743",
+                "MCL747",
+                "MCL749",
+                "MCL750",
+                "MCL753",
+                "MCL755",
+                "MCL756",
+                "MCL759",
+                "MCL760",
+                "MCL776",
+                "MCL777",
+                "MCL788",
+                "MCL795",
+                "MCL797",
+                "MCL798",
+                "MCL814",
+                "MCL818",
+                "MCL839",
+                "MCL865"
+            ],
+            "MTech": {
+                "PC": [],
+                "PE": []
+            }
+        },
+        "recommended": [
+            [
+                "CML101",
+                "COL100",
+                "MTL101",
+                "CMP100",
+                "NEN101",
+                "APL100",
+                "NLN101"
+            ],
+            [
+                "CML101",
+                "COL100",
+                "MTL101",
+                "CMP100",
+                "NEN101",
+                "APL100",
+                "NLN101"
+            ],
+            [
+                "MLL100",
+                "MCL141",
+                "HUL2XX"
+            ],
+            [
+                "SBL100",
+                "MTL108",
+                "MCL133",
+                "MCL132",
+                "MCL201",
+                "HUL2XX"
+            ],
+            [
+                "MCL262",
+                "MCP232",
+                "MCL261",
+                "MCL135",
+                "MCL134",
+                "MTL107",
+                "MCL211"
+            ],
+            [
+                "CVL100",
+                "MCP261",
+                "MCL361",
+                "MCP332",
+                "MCL331",
+                "MCL212",
+                "MCL311",
+                "MCL136"
+            ],
+            [
+                "MCD411",
+                "OC",
+                "MCP361",
+                "MCL431",
+                "DE",
+                "HUL2XX"
+            ],
+            [
+                "DE",
+                "HUL3XX",
+                "OC"
+            ]
+        ]
+    },
+    "MT1": {
+        "code": "MT1",
+        "name": "Bachelor of Technology in Mathematics and Computing",
+        "credits": {
+            "BS": 24,
+            "EAS": 19,
+            "HuSS": 15,
+            "PL": 12.5,
+            "DC": 63.5,
+            "DE": 12.0,
+            "OC": 10.0,
+            "MTech": {
+                "PC": 0,
+                "PE": 0
+            }
+        },
+        "courses": {
+            "PL": [
+                "COL106",
+                "ELL201",
+                "PYL102"
+            ],
+            "DC": [
+                "ELL305",
+                "ELP305",
+                "MTL102",
+                "MTL103",
+                "MTL104",
+                "MTL105",
+                "MTL106",
+                "MTL107",
+                "MTL122",
+                "MTL180",
+                "MTP290",
+                "MTL342",
+                "MTL390",
+                "MTD411",
+                "MTL421",
+                "MTL445",
+                "MTL458",
+                "MTL782",
+                "MTL783"
+            ],
+            "DE": [
+                "COL334",
+                "COL728",
+                "ELL365",
+                "ELL715",
+                "ELL786",
+                "ELL789",
+                "ELL792",
+                "ELL793",
+                "ELL884",
+                "MTL145",
+                "MTL146",
+                "MTL260",
+                "MTL265",
+                "MTL270",
+                "MTD350",
+                "MTL415",
+                "MTL704",
+                "MTL717",
+                "MTL720",
+                "MTL725",
+                "MTL728",
+                "MTL729",
+                "MTL730",
+                "MTL731",
+                "MTL732",
+                "MTL733",
+                "MTL734",
+                "MTL735",
+                "MTL736",
+                "MTL738",
+                "MTL739",
+                "MTL741",
+                "MTL742",
+                "MTL743",
+                "MTL744",
+                "MTL745",
+                "MTL747",
+                "MTL751",
+                "MTL754",
+                "MTL755",
+                "MTL756",
+                "MTL757",
+                "MTL760",
+                "MTL761",
+                "MTL762",
+                "MTL763",
+                "MTL766",
+                "MTL768",
+                "MTL773",
+                "MTL776",
+                "MTL780",
+                "MTL781",
+                "MTL785",
+                "MTL792",
+                "MTL793",
+                "MTL794",
+                "MTL795",
+                "MTL799",
+                "MTV791",
+                "MTL811",
+                "MTL843",
+                "MTL851",
+                "MTL854",
+                "MTL855",
+                "MTL860",
+                "MTL863",
+                "MTV874",
+                "MTL882",
+                "MTL883",
+                "MTL888"
+            ],
+            "MTech": {
+                "PC": [],
+                "PE": []
+            }
+        },
+        "recommended": [
+            [
+                "CML101",
+                "COL100",
+                "MTL101",
+                "CMP100",
+                "NEN101",
+                "APL100",
+                "NLN101"
+            ],
+            [
+                "CML101",
+                "COL100",
+                "MTL101",
+                "CMP100",
+                "NEN101",
+                "APL100",
+                "NLN101"
+            ],
+            [
+                "PYL102",
+                "MTL104",
+                "MTL180",
+                "HUL2XX",
+                "COL106"
+            ],
+            [
+                "MTL122",
+                "ELL201",
+                "SBL100",
+                "MTL103",
+                "MTP290",
+                "HUL2XX"
+            ],
+            [
+                "MTL342",
+                "MTL106",
+                "MTL107",
+                "ELL305",
+                "MTL105",
+                "HUL2XX"
+            ],
+            [
+                "ELP305",
+                "DE",
+                "MTL102",
+                "MTL782",
+                "MTL390",
+                "MTL411"
+            ],
+            [
+                "MTL783",
+                "HUL3XX",
+                "OC",
+                "MTL458",
+                "MTL712",
+                "DE"
+            ],
+            [
+                "MTD421",
+                "DE",
+                "OC"
+            ]
+        ]
+    },
+    "MT6": {
+        "code": "MT6",
+        "name": "Dual Degree Programme: Bachelor of Technology and Master of Technology ",
+        "credits": {
+            "BS": 24,
+            "EAS": 19,
+            "HuSS": 15,
+            "PL": 12.5,
+            "DC": 59.5,
+            "DE": 6.0,
+            "OC": 12.0,
+            "MTech": {
+                "PC": 0,
+                "PE": 0
+            }
+        },
+        "courses": {
+            "PL": [
+                "COL106",
+                "ELL201",
+                "PYL102"
+            ],
+            "DC": [
+                "ELL305",
+                "ELP305",
+                "MTL102",
+                "MTL103",
+                "MTL104",
+                "MTL105",
+                "MTL106",
+                "MTL107",
+                "MTL122",
+                "MTL180",
+                "MTP290",
+                "MTL342",
+                "MTL783",
+                "MTL390",
+                "MTL411",
+                "MTL445",
+                "MTL458",
+                "MTL712",
+                "MTL782"
+            ],
+            "DE": [
+                "COL334",
+                "ELL365",
+                "MTL145",
+                "MTL146",
+                "MTL260",
+                "MTL265",
+                "MTL270",
+                "MTD350",
+                "MTL415",
+                "MTL736",
+                "MTL768",
+                "MTL773",
+                "MTL780",
+                "MTL799",
+                "MTL766",
+                "MTL781",
+                "MTD851",
+                "MTD852",
+                "MTD853",
+                "MTD854"
+            ],
+            "MTech": {
+                "PC": [],
+                "PE": []
+            }
+        },
+        "recommended": [
+            [],
+            [
+                "CML101",
+                "COL100",
+                "MTL101",
+                "CMP100",
+                "NEN101",
+                "APL100",
+                "NLN101"
+            ],
+            [
+                "MTL180",
+                "HUL2XX",
+                "COL106"
+            ],
+            [
+                "MTL122",
+                "ELL201",
+                "SBL100",
+                "MTL103",
+                "MTP290",
+                "HUL2XX"
+            ],
+            [
+                "MTL342",
+                "MTL106",
+                "MTL107",
+                "ELL305",
+                "MTL105",
+                "HUL2XX"
+            ],
+            [
+                "ELP305",
+                "DE",
+                "MTL102",
+                "MTL782",
+                "MTL390",
+                "MTL411"
+            ],
+            [
+                "MTL783",
+                "HUL3XX",
+                "OC",
+                "MTL458",
+                "MTL712",
+                "DE"
+            ],
+            [
+                "OC"
+            ]
+        ]
+    },
+    "PH1": {
+        "code": "PH1",
+        "name": "Bachelor of Technology in Engineering Physics",
+        "credits": {
+            "BS": 24,
+            "EAS": 19,
+            "HuSS": 15,
+            "PL": 14.5,
+            "DC": 58.0,
+            "DE": 12.0,
+            "OC": 10.0,
+            "MTech": {
+                "PC": 0,
+                "PE": 0
+            }
+        },
+        "courses": {
+            "PL": [
+                "CML102",
+                "ELL201",
+                "ELL205",
+                "ESL350"
+            ],
+            "DC": [
+                "PYP111",
+                "PYL121",
+                "PYL122",
+                "PYL123",
+                "PYL125",
+                "PYL127",
+                "PYL202",
+                "PYL204",
+                "PYL205",
+                "PYL206",
+                "PYL208",
+                "PYL209",
+                "PYP212",
+                "PYP223",
+                "PYP224",
+                "PYD411"
+            ],
+            "DE": [
+                "PYS300",
+                "PYL301",
+                "PYL302",
+                "PYL303",
+                "PYL304",
+                "PYL305",
+                "PYL306",
+                "PYL307",
+                "PYL311",
+                "PYL312",
+                "PYL313",
+                "PYL321",
+                "PYL322",
+                "PYL323",
+                "PYL324",
+                "PYL331",
+                "PYL332",
+                "PYL411",
+                "PYD412",
+                "PYL412",
+                "PYL413",
+                "PYD414",
+                "PYL414",
+                "PYV418",
+                "PYV419",
+                "PYL421",
+                "PYL422",
+                "PYL423",
+                "PYV428",
+                "PYV429",
+                "PYL431",
+                "PYL432",
+                "PYL433",
+                "PYL434",
+                "PYL435",
+                "PYV438",
+                "PYV439",
+                "PYL711",
+                "PYL750"
+            ],
+            "MTech": {
+                "PC": [],
+                "PE": []
+            }
+        },
+        "recommended": [
+            [
+                "NLN101",
+                "COL100",
+                "NEN101",
+                "CML101"
+            ],
+            [
+                "CML101",
+                "COL100",
+                "CMP100",
+                "NEN101",
+                "NLN101"
+            ],
+            [
+                "PYL121",
+                "PYL127",
+                "PYL123",
+                "HUL2XX",
+                "PYP111"
+            ],
+            [
+                "PYL206",
+                "PYL122",
+                "ESL350",
+                "PYP212",
+                "ELL201",
+                "PYL208"
+            ],
+            [
+                "PYP223",
+                "PYL209",
+                "ELL205",
+                "CML102",
+                "PYL205",
+                "HUL2XX"
+            ],
+            [
+                "PYL202",
+                "PYL204",
+                "SBL100",
+                "PYP224",
+                "DE",
+                "HUL2XX"
+            ],
+            [
+                "CVL100",
+                "HUL3XX",
+                "OC",
+                "PYD411",
+                "DE"
+            ],
+            [
+                "DE",
+                "OC"
+            ]
+        ]
+    },
+    "TT1": {
+        "code": "TT1",
+        "name": "Bachelor of Technology in Textile Technology",
+        "credits": {
+            "BS": 24,
+            "EAS": 19,
+            "HuSS": 15,
+            "PL": 12.0,
+            "DC": 52.0,
+            "DE": 16.0,
+            "OC": 10.0,
+            "MTech": {
+                "PC": 0,
+                "PE": 0
+            }
+        },
+        "courses": {
+            "PL": [
+                "MLL100",
+                "APL103",
+                "APL105"
+            ],
+            "DC": [
+                "TXL130",
+                "TXL111",
+                "TXL211",
+                "TXL212",
+                "TXP212",
+                "TXL221",
+                "TXP221",
+                "TXL222",
+                "TXP222",
+                "TXL231",
+                "TXP231",
+                "TXL232",
+                "TXP232",
+                "TXL241",
+                "TXP241",
+                "TXL242",
+                "TXP242",
+                "TXL361",
+                "TXP361",
+                "TXL371",
+                "TXL372",
+                "TXD401"
+            ],
+            "DE": [
+                "TXD301",
+                "TXR301",
+                "TXS301",
+                "TXL321",
+                "TXL331",
+                "TXL381",
+                "TXL382",
+                "TXD402",
+                "TXL700",
+                "TXL710",
+                "TXL719",
+                "TXL724",
+                "TXL734",
+                "TXL740",
+                "TXL741",
+                "TXL750",
+                "TXL752",
+                "TXL766",
+                "TXL773",
+                "TXL774",
+                "TXL775",
+                "TXL776",
+                "TXL777",
+                "TXL780",
+                "TXL781",
+                "TXL782",
+                "TXL783",
+                "TXL785",
+                "TXL786",
+                "TXV701",
+                "TXV702",
+                "TXV703",
+                "TXV704",
+                "TXV705",
+                "TXV706",
+                "TXV707"
+            ],
+            "MTech": {
+                "PC": [],
+                "PE": []
+            }
+        },
+        "recommended": [
+            [
+                "NLN101",
+                "COL100",
+                "NEN101",
+                "APL100"
+            ],
+            [
+                "NLN101",
+                "COL100",
+                "NEN101",
+                "APL100"
+            ],
+            [
+                "CVL100",
+                "TXL130",
+                "TXL111",
+                "MLL100",
+                "HUL2XX"
+            ],
+            [
+                "TXL211",
+                "APL105",
+                "TXL221",
+                "TXL231",
+                "SBL100",
+                "TXP231",
+                "TXP221",
+                "TXP241"
+            ],
+            [
+                "TXL242",
+                "TXP242",
+                "TXP222",
+                "TXL222",
+                "TXL232",
+                "TXP232",
+                "TXL212",
+                "HUL2XX"
+            ],
+            [
+                "TXP361",
+                "TXL371",
+                "TXL372",
+                "TXL361",
+                "DE",
+                "HUL2XX",
+                "TXP212"
+            ],
+            [
+                "DE",
+                "HUL3XX"
+            ],
+            [
+                "DE",
+                "OC"
+            ]
+        ]
+    }
+}
