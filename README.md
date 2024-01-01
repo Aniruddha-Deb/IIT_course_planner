@@ -5,7 +5,7 @@
 IIT Course Planner is supposed to be an interactive Courses of Study that you can use to frame and arrange your courses and schedule
 
 Blogs:
-- [Data Wrangling in Practice: Dataset Creation from Poorly Structured Sources](https://aniruddhadeb.com/articles/2022/iit-course-planner-1.html#iit-course-planner-1)
+- [Data Wrangling in Practice: Dataset Creation from Poorly Structured Sources](https://aniruddhadeb.com/articles/2022/iit-course-planner-1)
 
 ## Contribute
 
