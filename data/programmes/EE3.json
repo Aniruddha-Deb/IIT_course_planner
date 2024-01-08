@@ -1,0 +1,133 @@
+{
+    "code": "EE3",
+    "name": "Bachelor of Technology in Electrical Engineering Power and Automation",
+    "dual": false,
+    "credits": {
+        "BS": 24,
+        "EAS": 19,
+        "HuSS": 15,
+        "PL": 15.0,
+        "DC": 60.0,
+        "DE": 10.0,
+        "OC": 10.0
+    },
+    "courses": {
+        "PL": [
+            "COL106",
+            "MTL106",
+            "MCL142",
+            "PYL102"
+        ],
+        "DC": [
+            "ELL201",
+            "ELL202",
+            "ELL203",
+            "ELP203",
+            "ELL205",
+            "ELL225",
+            "ELP225",
+            "ELL231",
+            "ELL302",
+            "ELP302",
+            "ELL303",
+            "ELP303",
+            "ELL304",
+            "ELL305",
+            "ELP305",
+            "ELL332",
+            "ELP332",
+            "ELL363",
+            "ELL365",
+            "ELD431"
+        ],
+        "DE": [
+            "ELL301",
+            "ELL311",
+            "ELL319",
+            "ELL333",
+            "ELL334",
+            "ELL400",
+            "ELL401",
+            "ELL405",
+            "ELL406",
+            "ELL407",
+            "ELL409",
+            "ELL410",
+            "ELL417",
+            "ELL431",
+            "ELL436",
+            "ELL437",
+            "ELL453",
+            "ELL703",
+            "ELL715",
+            "ELL724",
+            "ELL730",
+            "ELL758",
+            "ELL765",
+            "ELS330"
+        ]
+    },
+    "recommended": [
+        [
+            "ELL101",
+            "ELP101",
+            "MCP100",
+            "PYL101",
+            "MTL100",
+            "PYP100",
+            "MCP101"
+        ],
+        [
+            "APL100",
+            "COL100",
+            "CML101",
+            "MTL101",
+            "CMP100"
+        ],
+        [
+            "ELL205",
+            "ELL202",
+            "COL106",
+            "ELL203"
+        ],
+        [
+            "MTL106",
+            "CVL100",
+            "ELL225",
+            "ELL201",
+            "ELP203",
+            "ELL231",
+            "HUL2XX"
+        ],
+        [
+            "ELL302",
+            "DE",
+            "ELL305",
+            "ELP225",
+            "HUL2XX",
+            "ELL304"
+        ],
+        [
+            "ELL365",
+            "MCL142",
+            "PYL102",
+            "ELL303",
+            "ELL332",
+            "ELP302",
+            "ELP305"
+        ],
+        [
+            "ELL363",
+            "ELP332",
+            "ELP303",
+            "ELD431",
+            "OC",
+            "HUL2XX"
+        ],
+        [
+            "HUL3XX",
+            "DE",
+            "OC"
+        ]
+    ]
+}

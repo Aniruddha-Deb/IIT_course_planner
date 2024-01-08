@@ -1,0 +1,189 @@
+{
+    "MT1": {
+        "code": "MT1",
+        "name": "Bachelor of Technology in Mathematics and Computing",
+        "credits": {
+            "BS": 24,
+            "EAS": 19,
+            "HuSS": 15,
+            "PL": 12.5,
+            "DC": 63.5,
+            "DE": 12.0,
+            "OC": 10.0,
+            "MTech": {
+                "PC": 0,
+                "PE": 0
+            }
+        },
+        "courses": {
+            "PL": [
+                "COL106",
+                "ELL201",
+                "PYL102"
+            ],
+            "DC": [
+                "ELL305",
+                "ELP305",
+                "MTL102",
+                "MTL103",
+                "MTL104",
+                "MTL105",
+                "MTL106",
+                "MTL107",
+                "MTL122",
+                "MTL180",
+                "MTP290",
+                "MTL342",
+                "MTL390",
+                "MTD411",
+                "MTL421",
+                "MTL445",
+                "MTL458",
+                "MTL782",
+                "MTL783"
+            ],
+            "DE": [
+                "COL334",
+                "COL728",
+                "ELL365",
+                "ELL715",
+                "ELL786",
+                "ELL789",
+                "ELL792",
+                "ELL793",
+                "ELL884",
+                "MTL145",
+                "MTL146",
+                "MTL260",
+                "MTL265",
+                "MTL270",
+                "MTD350",
+                "MTL415",
+                "MTL704",
+                "MTL717",
+                "MTL720",
+                "MTL725",
+                "MTL728",
+                "MTL729",
+                "MTL730",
+                "MTL731",
+                "MTL732",
+                "MTL733",
+                "MTL734",
+                "MTL735",
+                "MTL736",
+                "MTL738",
+                "MTL739",
+                "MTL741",
+                "MTL742",
+                "MTL743",
+                "MTL744",
+                "MTL745",
+                "MTL747",
+                "MTL751",
+                "MTL754",
+                "MTL755",
+                "MTL756",
+                "MTL757",
+                "MTL760",
+                "MTL761",
+                "MTL762",
+                "MTL763",
+                "MTL766",
+                "MTL768",
+                "MTL773",
+                "MTL776",
+                "MTL780",
+                "MTL781",
+                "MTL785",
+                "MTL792",
+                "MTL793",
+                "MTL794",
+                "MTL795",
+                "MTL799",
+                "MTV791",
+                "MTL811",
+                "MTL843",
+                "MTL851",
+                "MTL854",
+                "MTL855",
+                "MTL860",
+                "MTL863",
+                "MTV874",
+                "MTL882",
+                "MTL883",
+                "MTL888"
+            ],
+            "MTech": {
+                "PC": [],
+                "PE": []
+            }
+        },
+        "recommended": [
+            [
+                "CML101",
+                "COL100",
+                "MTL101",
+                "CMP100",
+                "NEN101",
+                "APL100",
+                "NLN101"
+            ],
+            [
+                "CML101",
+                "COL100",
+                "MTL101",
+                "CMP100",
+                "NEN101",
+                "APL100",
+                "NLN101"
+            ],
+            [
+                "PYL102",
+                "MTL104",
+                "MTL180",
+                "HUL2XX",
+                "COL106"
+            ],
+            [
+                "MTL122",
+                "ELL201",
+                "SBL100",
+                "MTL103",
+                "MTP290",
+                "HUL2XX"
+            ],
+            [
+                "MTL342",
+                "MTL106",
+                "MTL107",
+                "ELL305",
+                "MTL105",
+                "HUL2XX"
+            ],
+            [
+                "ELP305",
+                "DE1",
+                "MTL102",
+                "MTL782",
+                "MTL390",
+                "MTL411"
+            ],
+            [
+                "MTL783",
+                "HUL3XX",
+                "OC1",
+                "MTL458",
+                "MTL712",
+                "DE2"
+            ],
+            [
+                "MTD421",
+                "DE3",
+                "DE4",
+                "OC2",
+                "OC3"
+            ]
+        ]
+    }
+}

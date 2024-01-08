@@ -1,0 +1,304 @@
+{
+    "EE1": {
+        "code": "EE1",
+        "name": "Bachelor of Technology in Electrical Engineering",
+        "credits": {
+            "BS": 24,
+            "EAS": 19,
+            "HuSS": 15,
+            "PL": 15.0,
+            "DC": 60.0,
+            "DE": 10.0,
+            "OC": 10.0,
+            "MTech": {
+                "PC": 0,
+                "PE": 0
+            }
+        },
+        "courses": {
+            "PL": [
+                "COL106",
+                "MTL106",
+                "MCL142",
+                "PYL102"
+            ],
+            "DC": [
+                "ELL201",
+                "ELL202",
+                "ELL203",
+                "ELP203",
+                "ELL205",
+                "ELL211",
+                "ELL212",
+                "ELP212",
+                "ELL225",
+                "ELP225",
+                "ELL302",
+                "ELP302",
+                "ELL303",
+                "ELP303",
+                "ELL304",
+                "ELL305",
+                "ELP305",
+                "ELL311",
+                "ELP311",
+                "ELD411"
+            ],
+            "DE": [
+                "ELL301",
+                "ELL312",
+                "ELL313",
+                "ELL315",
+                "ELL316",
+                "ELL318",
+                "ELL319",
+                "ELL332",
+                "ELL333",
+                "ELL365",
+                "ELL400",
+                "ELL401",
+                "ELL402",
+                "ELL405",
+                "ELL406",
+                "ELL407",
+                "ELL409",
+                "ELL410",
+                "ELL411",
+                "ELL703",
+                "ELL710",
+                "ELL715",
+                "ELL716",
+                "ELL724",
+                "ELL725",
+                "ELL730",
+                "ELL738",
+                "ELL740",
+                "ELL758",
+                "ELL765",
+                "ELS310"
+            ],
+            "MTech": {
+                "PC": [],
+                "PE": []
+            }
+        },
+        "recommended": [
+            [
+                "ELL101",
+                "ELP101",
+                "MCP100",
+                "PYL101",
+                "MTL100",
+                "PYP100",
+                "MCP101",
+                "NIN100",
+                "NEN101",
+                "NLN101"
+            ],
+            [
+                "CML101",
+                "COL100",
+                "MTL101",
+                "CMP100",
+                "NEN101",
+                "APL100",
+                "NLN101"
+            ],
+            [
+                "ELL211",
+                "ELL203",
+                "ELL205",
+                "ELL202",
+                "COL106",
+                "HUL2XX"
+            ],
+            [
+                "ELP203",
+                "ELL212",
+                "ELL201",
+                "SBL100",
+                "MTL106",
+                "ELL225"
+            ],
+            [
+                "CVL100",
+                "ELL304",
+                "ELL311",
+                "ELL302",
+                "ELL305",
+                "ELP225",
+                "ELP212"
+            ],
+            [
+                "PYL102",
+                "ELL303",
+                "ELP305",
+                "MCL142",
+                "DE1",
+                "HUL2XX",
+                "ELP302",
+                "ELP311"
+            ],
+            [
+                "ELD411",
+                "ELP303",
+                "OC1",
+                "DE2",
+                "HUL2XX"
+            ],
+            [
+                "DE3",
+                "HUL3XX",
+                "OC2",
+                "OC3"
+            ]
+        ]
+    },
+    "EE3": {
+        "code": "EE3",
+        "name": "Bachelor of Technology in Electrical Engineering Power and Automation",
+        "credits": {
+            "BS": 24,
+            "EAS": 19,
+            "HuSS": 15,
+            "PL": 15.0,
+            "DC": 60.0,
+            "DE": 10.0,
+            "OC": 10.0,
+            "MTech": {
+                "PC": 0,
+                "PE": 0
+            }
+        },
+        "courses": {
+            "PL": [
+                "COL106",
+                "MTL106",
+                "MCL142",
+                "PYL102"
+            ],
+            "DC": [
+                "ELL201",
+                "ELL202",
+                "ELL203",
+                "ELP203",
+                "ELL205",
+                "ELL225",
+                "ELP225",
+                "ELL231",
+                "ELL302",
+                "ELP302",
+                "ELL303",
+                "ELP303",
+                "ELL304",
+                "ELL305",
+                "ELP305",
+                "ELL332",
+                "ELP332",
+                "ELL363",
+                "ELL365",
+                "ELD431"
+            ],
+            "DE": [
+                "ELL301",
+                "ELL311",
+                "ELL319",
+                "ELL333",
+                "ELL334",
+                "ELL400",
+                "ELL401",
+                "ELL405",
+                "ELL406",
+                "ELL407",
+                "ELL409",
+                "ELL410",
+                "ELL417",
+                "ELL431",
+                "ELL436",
+                "ELL437",
+                "ELL453",
+                "ELL703",
+                "ELL715",
+                "ELL724",
+                "ELL730",
+                "ELL758",
+                "ELL765",
+                "ELS330"
+            ],
+            "MTech": {
+                "PC": [],
+                "PE": []
+            }
+        },
+        "recommended": [
+            [
+                "ELL101",
+                "ELP101",
+                "MCP100",
+                "PYL101",
+                "MTL100",
+                "PYP100",
+                "MCP101",
+                "NIN100",
+                "NEN101",
+                "NLN101"
+            ],
+            [
+                "CML101",
+                "COL100",
+                "MTL101",
+                "CMP100",
+                "NEN101",
+                "APL100",
+                "NLN101"
+            ],
+            [
+                "ELL203",
+                "ELL205",
+                "ELL202",
+                "COL106"
+            ],
+            [
+                "CVL100",
+                "ELP203",
+                "ELL201",
+                "ELL231",
+                "MTL106",
+                "ELL225",
+                "HUL2XX"
+            ],
+            [
+                "ELL304",
+                "ELL302",
+                "ELL305",
+                "DE1",
+                "ELP225",
+                "HUL2XX"
+            ],
+            [
+                "PYL102",
+                "ELL303",
+                "ELP305",
+                "ELL365",
+                "MCL142",
+                "ELL332",
+                "ELP302"
+            ],
+            [
+                "ELP332",
+                "ELP303",
+                "ELD431",
+                "OC1",
+                "ELL363",
+                "HUL2XX"
+            ],
+            [
+                "DE2",
+                "DE3",
+                "HUL3XX",
+                "OC2",
+                "OC3"
+            ]
+        ]
+    }
+}

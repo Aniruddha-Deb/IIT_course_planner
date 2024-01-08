@@ -1,0 +1,150 @@
+{
+    "code": "ES1",
+    "name": "Bachelor of Technology in Energy Engineering",
+    "dual": false,
+    "credits": {
+        "BS": 24,
+        "EAS": 19,
+        "HuSS": 15,
+        "PL": 12.0,
+        "DC": 67.0,
+        "DE": 10.0,
+        "OC": 10.0
+    },
+    "courses": {
+        "PL": [
+            "MCL140",
+            "MCL242",
+            "MLL100"
+        ],
+        "DC": [
+            "APL105",
+            "ESL100",
+            "ESL260",
+            "ESL220",
+            "ESL261",
+            "ESL200",
+            "ESL262",
+            "ESL280",
+            "ESL263",
+            "ESL370",
+            "ESL341",
+            "ESL371",
+            "ESL361",
+            "ESL373",
+            "ESL352",
+            "ESP260",
+            "ESP300",
+            "ESL372",
+            "ESL390",
+            "ESD400",
+            "ESL400"
+        ],
+        "DE": [
+            "ESL300",
+            "ESL320",
+            "ESL330",
+            "ESL331",
+            "ESL342",
+            "ESL351",
+            "ESL360",
+            "ESL374",
+            "ESL375",
+            "ESL376",
+            "ESL377",
+            "ESL380",
+            "ESL381",
+            "ESL382",
+            "ESL410",
+            "ESL420",
+            "ESL450",
+            "ESL480",
+            "ESL481",
+            "ESL490",
+            "ESL732",
+            "ESL738",
+            "ESL739",
+            "ESL742",
+            "ESL746",
+            "ESL749",
+            "ESL750",
+            "ESL753",
+            "ESL755",
+            "ESL756",
+            "ESL762",
+            "ESL768",
+            "ESL769",
+            "ESL774",
+            "ESL776",
+            "ESL784",
+            "ESL791",
+            "ESL796",
+            "ESL798",
+            "ESL845",
+            "ESL855",
+            "ESD406"
+        ]
+    },
+    "recommended": [
+        [
+            "ELL101",
+            "ELP101",
+            "MCP100",
+            "PYL101",
+            "MTL100",
+            "PYP100",
+            "MCP101"
+        ],
+        [
+            "APL100",
+            "COL100",
+            "CML101",
+            "MTL101",
+            "CMP100"
+        ],
+        [
+            "ESL341",
+            "CVL100",
+            "ESL200",
+            "HUL2XX",
+            "ESL261"
+        ],
+        [
+            "ESL341",
+            "CVL100",
+            "ESL262",
+            "ESL200",
+            "APL105",
+            "HUL2XX"
+        ],
+        [
+            "ESL341",
+            "CVL100",
+            "ESL263",
+            "ESL352",
+            "MCL242",
+            "ESL390"
+        ],
+        [
+            "ESP300",
+            "ESP260",
+            "ESL371",
+            "ESL352",
+            "ESL390",
+            "HUL2XX",
+            "ESL400"
+        ],
+        [
+            "DE",
+            "ESL372",
+            "ESL390",
+            "HUL2XX",
+            "ESD400",
+            "ESL400"
+        ],
+        [
+            "DE",
+            "OC"
+        ]
+    ]
+}
