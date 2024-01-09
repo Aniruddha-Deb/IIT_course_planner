@@ -1,8 +1,10 @@
-from mistral import load_model, generate
+from mistral import Mistral, Tokenizer, load_model
+import mlx.core as mx
+from typing import Optional
 import argparse
 import json
 
-prompt = """You need to parse a set of course prerequisites into logical expressions which can be parsed by a machine. The input format is in plaintext, and the output is a boolean expression within square brackets. If there is any confusion, choose the most unambiguous combination. Ignore "Or Equivalent", "Undergraduate" or any other qualifiers. ONLY include alphanumeric course codes, or EC values. EXACTLY FOLLOW THE FORMAT.
+preprompt = """You need to parse a set of course prerequisites into logical expressions which can be parsed by a machine. The input format is in plaintext, and the output is a boolean expression within square brackets. If there is any confusion, choose the most unambiguous combination. Ignore "Or Equivalent", "Undergraduate" or any other qualifiers. ONLY include alphanumeric course codes, or EC values. EXACTLY FOLLOW THE FORMAT.
 
 Prerequisites: APL104/APL105/APL108 EC50
 Parsed: [(APL104 || APL105 || APL108) && EC50]
@@ -34,8 +36,48 @@ Parsed: []
 Prerequisites: MCL140, APL106 or APL105, ESL200, ESL262,
 Parsed: [MCL140 && (APL106 || APL105) && ESL200 && ESL262]
 
-Prerequisites: %s
+Prerequisites: """
+
+prompt = """%s
 Parsed:"""
+
+def sample(logits, temp):
+    if temp == 0:
+        return mx.argmax(logits, axis=-1)
+    else:
+        return mx.random.categorical(logits * (1 / temp))
+
+def next_token(prompt: mx.array, model: Mistral, cache: Optional[mx.array] = None, temp: float = 0.0):
+
+    if cache:
+        logits, cache = model(prompt[None], cache)
+    else:
+        logits, cache = model(prompt[None])
+
+    y = sample(logits[:, -1, :], temp)
+    yield y
+
+    while True:
+        logits, cache = model(y[:, None], cache)
+        y = sample(logits.squeeze(1), temp)
+        yield y
+
+def generate(prompts: list[str], model: Mistral, tokenizer: Tokenizer, cache: Optional[mx.array] = None,
+             temp: float = 0.0, limit: int = 512,
+             break_tok: Optional[int] = None):
+    prompt = mx.array(tokenizer.batch_encode(prompt))
+    tokens = []
+    for token, ntoks in zip(next_token(prompt, model, cache, temp), range(limit)):
+        tokens.append(token)
+        if ntoks == 0:
+            mx.eval(tokens)
+        if break_tok and token == break_tok:
+            break
+
+    mx.eval(tokens)
+    s = tokenizer.decode([t.item() for t in tokens])
+
+    return(s)
 
 def parse_llm_output(output):
     s = output.strip()
@@ -78,8 +120,11 @@ def main():
     model, tokenizer = load_model(args.model_path)
     courses = json.load(open(args.input, 'r'))
 
+    preprompt_toks = mx.array(tokenizer.encode(preprompt))
+    logits, cache = model(preprompt_toks[None])
+
     for course in courses:
-        llm_output = generate(prompt % course['prereqs'], model, tokenizer, break_tok=13) # \n
+        llm_output = generate(prompt % course['prereqs'], model, tokenizer, cache, break_tok=13) # \n
         course['prereqs'] = parse_llm_output(llm_output)
 
     json.dump(courses, open(args.output, 'w'), ensure_ascii=False, indent=4)

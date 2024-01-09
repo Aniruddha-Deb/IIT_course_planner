@@ -183,12 +183,18 @@ class Tokenizer:
 
     def encode(self, s: str) -> List[int]:
         return [self._model.bos_id(), *self._model.encode(s)]
+    
+    def batch_encode(self, s: List[str]) -> List[List[int]]:
+        return [[self._model.bos_id(), *self._model.encode(p)] for p in s]
 
     def decode(self, t: List[int]) -> str:
         out = self._model.decode(t)
         if t and self._model.id_to_piece(t[0])[0] == self._sep:
             return " " + out
         return out
+    
+    def batch_decode(self, t: List[List[int]]) -> List[str]:
+        return [self.decode(p) for p in t]
 
 
 def load_model(folder: str):
