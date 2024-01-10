@@ -1,0 +1,191 @@
+{
+    "code": "MT6",
+    "name": "Bachelor of Technology and Master of Technology in Mathematics and Computing",
+    "dual": true,
+    "credits": {
+        "BS": 24,
+        "EAS": 19,
+        "HuSS": 15,
+        "PL": 12.5,
+        "DC": 59.5,
+        "DE": 6.0,
+        "OC": 12.0,
+        "PC": 24.0,
+        "PE": 18.0
+    },
+    "courses": {
+        "PL": [
+            "COL106",
+            "ELL201",
+            "PYL102"
+        ],
+        "DC": [
+            "ELL305",
+            "ELP305",
+            "MTL102",
+            "MTL103",
+            "MTL104",
+            "MTL105",
+            "MTL106",
+            "MTL107",
+            "MTL122",
+            "MTL180",
+            "MTP290",
+            "MTL342",
+            "MTL783",
+            "MTL390",
+            "MTL411",
+            "MTL445",
+            "MTL458",
+            "MTL712",
+            "MTL782"
+        ],
+        "DE": [
+            "COL334",
+            "ELL365",
+            "MTL145",
+            "MTL146",
+            "MTL260",
+            "MTL265",
+            "MTL270",
+            "MTD350",
+            "MTL415",
+            "MTL736",
+            "MTL768",
+            "MTL773",
+            "MTL780",
+            "MTL799"
+        ],
+        "PC": [
+            "MTL766",
+            "MTL781",
+            "MTD851",
+            "MTD852",
+            "MTD853",
+            "MTD854"
+        ],
+        "PE": [
+            "COL728",
+            "ELL715",
+            "ELL786",
+            "ELL789",
+            "ELL792",
+            "ELL793",
+            "ELL884",
+            "MTL704",
+            "MTL717",
+            "MTL720",
+            "MTL725",
+            "MTL728",
+            "MTL729",
+            "MTL730",
+            "MTL731",
+            "MTL732",
+            "MTL733",
+            "MTL734",
+            "MTL735",
+            "MTL736",
+            "MTL738",
+            "MTL739",
+            "MTL741",
+            "MTL742",
+            "MTL743",
+            "MTL744",
+            "MTL745",
+            "MTL747",
+            "MTL751",
+            "MTL754",
+            "MTL755",
+            "MTL756",
+            "MTL757",
+            "MTL760",
+            "MTL761",
+            "MTL762",
+            "MTL763",
+            "MTL780",
+            "MTL785",
+            "MTL792",
+            "MTL793",
+            "MTL794",
+            "MTL795",
+            "MTV791",
+            "MTL811",
+            "MTL843",
+            "MTL851",
+            "MTL854",
+            "MTL855",
+            "MTL860",
+            "MTL863",
+            "MTV874",
+            "MTL882",
+            "MTL883",
+            "MTL888"
+        ]
+    },
+    "recommended": [
+        [
+            "ELL101",
+            "ELP101",
+            "MCP100",
+            "PYL101",
+            "MTL100",
+            "PYP100",
+            "MCP101"
+        ],
+        [
+            "APL100",
+            "COL100",
+            "CML101",
+            "MTL101",
+            "CMP100"
+        ],
+        [
+            "MTL180",
+            "COL106",
+            "HUL2XX"
+        ],
+        [
+            "MTP290",
+            "MTL122",
+            "ELL201",
+            "MTL103",
+            "HUL2XX",
+            "SBL100"
+        ],
+        [
+            "MTL106",
+            "MTL107",
+            "ELL305",
+            "MTL105",
+            "HUL2XX",
+            "MTL342"
+        ],
+        [
+            "MTL102",
+            "MTL390",
+            "MTL782",
+            "DE",
+            "MTL411",
+            "ELP305"
+        ],
+        [
+            "HUL3XX",
+            "MTL458",
+            "MTL712",
+            "DE",
+            "OC",
+            "MTL783"
+        ],
+        [
+            "OC"
+        ],
+        [
+            "MTL766",
+            "MTL781",
+            "MTD851"
+        ],
+        [
+            "MTD852"
+        ]
+    ]
+}

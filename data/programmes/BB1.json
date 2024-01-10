@@ -1,0 +1,142 @@
+{
+    "code": "BB1",
+    "name": "Bachelor of Technology in Biochemical Engineering and Biotechnology",
+    "dual": false,
+    "credits": {
+        "BS": 24,
+        "EAS": 19,
+        "HuSS": 15,
+        "PL": 11.0,
+        "DC": 69.0,
+        "DE": 10.0,
+        "OC": 10.0
+    },
+    "courses": {
+        "PL": [
+            "MLL100",
+            "CLL110",
+            "MTL102"
+        ],
+        "DC": [
+            "BBL131",
+            "BBL132",
+            "BBL133",
+            "BBL231",
+            "BBL331",
+            "BBP332",
+            "BBL431",
+            "BBL432",
+            "BBL433",
+            "BBL434",
+            "BBD451",
+            "BBL731",
+            "BBL732",
+            "BBL733",
+            "CLL122",
+            "CLL231",
+            "CLL251",
+            "CLL252",
+            "CLL261",
+            "CLP301",
+            "CLP302"
+        ],
+        "DE": [
+            "BBL341",
+            "BBL342",
+            "BBL343",
+            "BBV350",
+            "BBD351",
+            "BBL441",
+            "BBL442",
+            "BBL443",
+            "BBL444",
+            "BBL445",
+            "BBL446",
+            "BBL447",
+            "BBD452",
+            "CLL477",
+            "BBL734",
+            "BBL735",
+            "BBL736",
+            "BBL737",
+            "BBL740",
+            "BBL741",
+            "BBL742",
+            "BBL743",
+            "BBL744",
+            "BBL745",
+            "BBL746",
+            "BBL747",
+            "BBL748",
+            "BBL749",
+            "BBL750",
+            "BBL751",
+            "BBL752",
+            "BBL754",
+            "BBL756",
+            "BBL757",
+            "CLL728"
+        ]
+    },
+    "recommended": [
+        [
+            "ELL101",
+            "ELP101",
+            "MCP100",
+            "PYL101",
+            "MTL100",
+            "PYP100",
+            "MCP101"
+        ],
+        [
+            "APL100",
+            "COL100",
+            "CML101",
+            "MTL101",
+            "CMP100"
+        ],
+        [
+            "BBL132",
+            "MLL100",
+            "CLL110",
+            "SBL100"
+        ],
+        [
+            "CLL231",
+            "MTL102",
+            "CVL100",
+            "CLL251",
+            "CLL122",
+            "HUL2XX"
+        ],
+        [
+            "BBP332",
+            "CLP301",
+            "BBL231",
+            "BBL331",
+            "HUL2XX",
+            "CLL252",
+            "CLL261"
+        ],
+        [
+            "BBL433",
+            "CLP302",
+            "BBL434",
+            "BBL431",
+            "HUL2XX",
+            "BBL432"
+        ],
+        [
+            "BBL733",
+            "HUL3XX",
+            "BED451",
+            "BBL731",
+            "OC",
+            "BBL732"
+        ],
+        [
+            "DE",
+            "OC"
+        ]
+    ]
+}

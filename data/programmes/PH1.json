@@ -1,0 +1,141 @@
+{
+    "code": "PH1",
+    "name": "Bachelor of Technology in Engineering Physics",
+    "dual": false,
+    "credits": {
+        "BS": 24,
+        "EAS": 19,
+        "HuSS": 15,
+        "PL": 14.5,
+        "DC": 58.0,
+        "DE": 12.0,
+        "OC": 10.0
+    },
+    "courses": {
+        "PL": [
+            "CML102",
+            "ELL201",
+            "ELL205",
+            "ESL350"
+        ],
+        "DC": [
+            "PYP111",
+            "PYL121",
+            "PYL122",
+            "PYL123",
+            "PYL125",
+            "PYL127",
+            "PYL202",
+            "PYL204",
+            "PYL205",
+            "PYL206",
+            "PYL208",
+            "PYL209",
+            "PYP212",
+            "PYP223",
+            "PYP224",
+            "PYD411"
+        ],
+        "DE": [
+            "PYS300",
+            "PYL301",
+            "PYL302",
+            "PYL303",
+            "PYL304",
+            "PYL305",
+            "PYL306",
+            "PYL307",
+            "PYL311",
+            "PYL312",
+            "PYL313",
+            "PYL321",
+            "PYL322",
+            "PYL323",
+            "PYL324",
+            "PYL331",
+            "PYL332",
+            "PYL411",
+            "PYD412",
+            "PYL412",
+            "PYL413",
+            "PYD414",
+            "PYL414",
+            "PYV418",
+            "PYV419",
+            "PYL421",
+            "PYL422",
+            "PYL423",
+            "PYV428",
+            "PYV429",
+            "PYL431",
+            "PYL432",
+            "PYL433",
+            "PYL434",
+            "PYL435",
+            "PYV438",
+            "PYV439",
+            "PYL711",
+            "PYL750"
+        ]
+    },
+    "recommended": [
+        [
+            "ELL101",
+            "ELP101",
+            "MCP100",
+            "PYL101",
+            "MTL100",
+            "PYP100",
+            "MCP101"
+        ],
+        [
+            "APL100",
+            "COL100",
+            "CML101",
+            "MTL101",
+            "CMP100"
+        ],
+        [
+            "PYL123",
+            "PYL127",
+            "HUL2XX",
+            "PYP111",
+            "PYL121"
+        ],
+        [
+            "PYP212",
+            "ESL350",
+            "ELL201",
+            "PYL208",
+            "PYL206",
+            "PYL122"
+        ],
+        [
+            "PYL205",
+            "PYP223",
+            "ELL205",
+            "PYL209",
+            "CML102",
+            "HUL2XX"
+        ],
+        [
+            "PYL202",
+            "PYP224",
+            "DE",
+            "HUL2XX",
+            "PYL204",
+            "SBL100"
+        ],
+        [
+            "CVL100",
+            "HUL3XX",
+            "DE",
+            "OC",
+            "PYD411"
+        ],
+        [
+            "DE",
+            "OC"
+        ]
+    ]
+}

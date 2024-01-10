@@ -1,0 +1,145 @@
+{
+    "code": "TT1",
+    "name": "Bachelor of Technology in Textile Technology",
+    "dual": false,
+    "credits": {
+        "BS": 24,
+        "EAS": 19,
+        "HuSS": 15,
+        "PL": 12.0,
+        "DC": 52.0,
+        "DE": 16.0,
+        "OC": 10.0
+    },
+    "courses": {
+        "PL": [
+            "MLL100",
+            "APL103",
+            "APL105"
+        ],
+        "DC": [
+            "TXL130",
+            "TXL111",
+            "TXL211",
+            "TXL212",
+            "TXP212",
+            "TXL221",
+            "TXP221",
+            "TXL222",
+            "TXP222",
+            "TXL231",
+            "TXP231",
+            "TXL232",
+            "TXP232",
+            "TXL241",
+            "TXP241",
+            "TXL242",
+            "TXP242",
+            "TXL361",
+            "TXP361",
+            "TXL371",
+            "TXL372",
+            "TXD401"
+        ],
+        "DE": [
+            "TXD301",
+            "TXR301",
+            "TXS301",
+            "TXL321",
+            "TXL331",
+            "TXL381",
+            "TXL382",
+            "TXD402",
+            "TXL700",
+            "TXL710",
+            "TXL719",
+            "TXL724",
+            "TXL734",
+            "TXL740",
+            "TXL741",
+            "TXL750",
+            "TXL752",
+            "TXL766",
+            "TXL773",
+            "TXL774",
+            "TXL775",
+            "TXL776",
+            "TXL777",
+            "TXL780",
+            "TXL781",
+            "TXL782",
+            "TXL783",
+            "TXL785",
+            "TXL786",
+            "TXV701",
+            "TXV702",
+            "TXV703",
+            "TXV704",
+            "TXV705",
+            "TXV706",
+            "TXV707"
+        ]
+    },
+    "recommended": [
+        [
+            "ELL101",
+            "ELP101",
+            "MCP100",
+            "PYL101",
+            "MTL100",
+            "PYP100",
+            "MCP101"
+        ],
+        [
+            "APL100",
+            "COL100",
+            "CML101",
+            "MTL101",
+            "CMP100"
+        ],
+        [
+            "TXL111",
+            "CVL100",
+            "TXL130",
+            "HUL2XX",
+            "MLL100"
+        ],
+        [
+            "TXP231",
+            "TXP221",
+            "TXL221",
+            "TXL211",
+            "APL105",
+            "TXL231",
+            "TXP241",
+            "SBL100"
+        ],
+        [
+            "TXL222",
+            "TXL242",
+            "TXL212",
+            "TXP242",
+            "HUL2XX",
+            "TXL232",
+            "TXP222",
+            "TXP232"
+        ],
+        [
+            "TXP212",
+            "DE",
+            "TXL361",
+            "TXL371",
+            "TXP361",
+            "HUL2XX",
+            "TXL372"
+        ],
+        [
+            "HUL3XX",
+            "DE"
+        ],
+        [
+            "DE",
+            "OC"
+        ]
+    ]
+}

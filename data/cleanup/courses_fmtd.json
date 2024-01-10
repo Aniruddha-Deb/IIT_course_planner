@@ -1,0 +1,210 @@
+[
+    {
+        "code": "APV303",
+        "name": "Mechanics of Cricket",
+        "prereqs": "APL100 && APL104 && APL106",
+        "overlap": "",
+        "credits": 0,
+        "hours": {
+            "lecture": 0,
+            "tutorial": 0,
+            "practical": 0
+        },
+        "description": "1 Credit (1-0-0) Human Mechanics (shoulder Joint During Wrist-spin bowing, biceps brachii muscle during fast bowling), Fluid Mechanics (Conventional and reverse swing bowling), Structure and mechan-ical properties of cricket ball and bat, Solid Mechanics (oblique impact of ball on pitch and ball on bat)."
+    },
+    {
+        "code": "APL306",
+        "name": "Vibrations",
+        "prereqs": "",
+        "overlap": "CVL759, MCL733",
+        "credits": 3.0,
+        "hours": {
+            "lecture": 3,
+            "tutorial": 0,
+            "practical": 0
+        },
+        "description": "Axioms, Euler angles, equations of motion, kinematics and dynamics of constrained rigid bodies. Free vibration response of single-degree- of-freedom (SDoF) systems, undamped and damped vibration. Forced response of SDoF system, response to periodic excitation, impulse response, response to arbitrary excitation, convolution integral, and shock spectrum.  Two degrees-of-freedom systems, orthogonality of modes, harmonic response, vibration absorbers. Multi-degrees-of- freedom (MDoF) systems, modal analysis. Continuous systems, axial vibration of rods, bending vibration of beams torsional vibration of rods, Rayleigh-Ritz method, symmetric and antisymmetric modes. Time domain and frequency domain analyses. Numerical methods- extraction of eigenvalues and eigenvectors, time integration techniques."
+    },
+    {
+        "code": "APD310",
+        "name": "Mini Project",
+        "prereqs": "EC50",
+        "overlap": "",
+        "credits": 3.0,
+        "hours": {
+            "lecture": 0,
+            "tutorial": 0,
+            "practical": 6
+        },
+        "description": ""
+    },
+    {
+        "code": "APL310",
+        "name": "Constitutive Modeling",
+        "prereqs": "(APL104 || APL105 || APL108) && EC50",
+        "overlap": "",
+        "credits": 4.0,
+        "hours": {
+            "lecture": 3,
+            "tutorial": 0,
+            "practical": 2
+        },
+        "description": "Mathematical Preliminaries (scalar, vector, tensor operation) Thermodynamics (thermodynamical framework for constitutive modeling), Kinematics of Deformation & Motion, Stree-strain principles, Elasticity, Anisotropy, viscoelasticity, multi-physical coupling effect, plasticity, viscoplasticity. Experimental: Experimental characterization, data analysis, Model fitting."
+    },
+    {
+        "code": "CLL784",
+        "name": "Process Modeling and Simulation",
+        "prereqs": "CLL222 && CLL352",
+        "overlap": "",
+        "credits": 3.0,
+        "hours": {
+            "lecture": 3,
+            "tutorial": 0,
+            "practical": 0
+        },
+        "description": "Introduction to modeling, physical and mathematical models, modeling individual units vs. process. Role of simulation and simulators. Sequential and modular approaches to flowsheet simulation: equation solving approach. Decomposition of networks: tearing algorithms, convergence promotion. Specific purpose simulation. Dynamic simulation. Case studies using commercial or open source simulation packages."
+    },
+    {
+        "code": "COL333",
+        "name": "Principles of Artificial Intelligence",
+        "prereqs": "COL106",
+        "overlap": "COL671, COL770, ELL789",
+        "credits": 4.0,
+        "hours": {
+            "lecture": 3,
+            "tutorial": 0,
+            "practical": 2
+        },
+        "description": "Philosophy of artificial intelligence, problem solving, search techniques, constraint satisfaction, game playing (minimax, expectiminimax), automated planning, knowledge representation and reasoning through logic, knowledge representation and reasoning through fuzzy logic and Bayesian networks, Markov decision processes, machine learning, neural networks, reinforcement learning, soft computing, introduction to natural language processing."
+    },
+    {
+        "code": "COL334",
+        "name": "Computer Networks",
+        "prereqs": "COL106 && COL216",
+        "overlap": "ELL402",
+        "credits": 4.0,
+        "hours": {
+            "lecture": 3,
+            "tutorial": 0,
+            "practical": 2
+        },
+        "description": "Students will be exposed to common network algorithms and protocols, including physical layer modulation (analog AM/FM, digital ASK/FSK/PSK), encoding (NRZ, Manchester, 4B/5B), link layer framing, error control, medium access control (TDMA, FDMA, CSMA/ CA, CSMA/CD), bridging, SDN, addressing (IPv4/v6), name resolution (DNS), routing (DV, LS, protocols RIP, oSPF, BGP), transport protocols (TCP), congestion avoidance (window based AIMD), and application design models (client-server, P2P, functioning of HTTP, SMTP, IMAP). Programming assignments will be designed to test network application design concepts, protocol design towards developing error detection and correction methods, efficient network utilization, and familiarization with basic tools such as ping, trace route, wires hark."
+    },
+    {
+        "code": "COL341",
+        "name": "Fundamentals of Machine Learning",
+        "prereqs": "COL106 && MTL106",
+        "overlap": "ELL409, ELL784",
+        "credits": 4.0,
+        "hours": {
+            "lecture": 3,
+            "tutorial": 0,
+            "practical": 2
+        },
+        "description": "Supervised Learning Algorithms: 1. Logistic Regression 2.Neural Networks 3.Decision Trees 4.Nearest Neighbour 5. Support Vector Machines 6. Naive Bayes. ML and MAP estimates. Bayes’ Optimal Classifier. Introduction to Graphical Models. Generative Vs. Discriminative Models. unsupervised learning algorithms: K-Means clustering, Expectation Maximization, Gaussian Mixture Models. PCA and Feature Selection, PAC Learnability, Reinforcement Learning. Some application areas of machine learning e.g. Natural Language Processing, Computer Vision, applications on the web. Introduction to advanced topics such as Statistical Relational Learning."
+    },
+    {
+        "code": "ELL304",
+        "name": "Analog Electronics",
+        "prereqs": "ELL101 && ELL202 && (ELL211 || ELL231)",
+        "overlap": "",
+        "credits": 5.5,
+        "hours": {
+            "lecture": 3,
+            "tutorial": 1,
+            "practical": 3
+        },
+        "description": "Review of working of BJT and MoSFET, large signal and small signal models, biasing schemes, analysis and design of various single stage amplifier configuration, low and high frequency analysis of single stage amplifiers, frequency compensation, current mirrors, multistage amplifiers; differential and operational amplifiers, negative and positive feedback, oscillators and power amplifiers."
+    },
+    {
+        "code": "HUV887",
+        "name": "Special Module on Econometric Tools",
+        "prereqs": "(HUL || (SML700 && SML800))",
+        "overlap": "",
+        "credits": 0,
+        "hours": {
+            "lecture": 0,
+            "tutorial": 0,
+            "practical": 0
+        },
+        "description": "1 Credit (1-0-0) Estimation and inference in two variable model; oLS assumption; Extension of the two variable model; oLS assumption : autocorrelation, multicollinearity, and heteroskedasticity, models with limited dependent variables : LPM, logit, and probit; Panel data modelling : fixed effect and random effect models; Time series analysis: introduction to non-stationarity, AR and MA modelling."
+    },
+    {
+        "code": "MTL773",
+        "name": "Wavelets and Applications",
+        "prereqs": "(MTL411 || MTL602)",
+        "overlap": "",
+        "credits": 3.0,
+        "hours": {
+            "lecture": 3,
+            "tutorial": 0,
+            "practical": 0
+        },
+        "description": "Basic Fourier Analysis: Fourier Series, convergence of Fourier series, Riesz Fischer theorem, Fourier transform of square integrable functions, Plancheral formula, Poisson Summation formula, Shannon sampling theorem, Heisenberg uncertainty principle. Continuous Wavelet transform, Plancherel formula, Inversion formulas. Frames, Riesz Systems, discrete wavelet transform, Numerical algorithms. orthogonal bases of wavelets, multi resolution analysis, smoothness of wavelets, compactly supported wavelets, cardinal spline wavelets. Tensor products of wavelets, Decomposition and reconstruction algorithms for wavelets, wavelet packets, recent development and applications."
+    },
+    {
+        "code": "MCL797",
+        "name": "Freedom and Constraints in Design",
+        "prereqs": "AML140 && MCL111",
+        "overlap": "",
+        "credits": 3.0,
+        "hours": {
+            "lecture": 3,
+            "tutorial": 0,
+            "practical": 3
+        },
+        "description": "PG: MCL799 The course contents will include lecture & hands-on-experience covering: Degrees-of-Freedom and constraints, exact-constrained design; design of elastic mechanisms/flexures/complaint mechanisms; constraint and mobility analysis using screw algebra; design for stiffness; friction and hysteresis; actuators and sensors for robotic application. The course contents also include different case studies and then working on different course projects identified by the students."
+    },
+    {
+        "code": "PYL740",
+        "name": "Advanced Condensed Matter Theory",
+        "prereqs": "(PYL563 || PYL114)",
+        "overlap": "",
+        "credits": 3.0,
+        "hours": {
+            "lecture": 3,
+            "tutorial": 0,
+            "practical": 0
+        },
+        "description": "Quantum Fields and their roles in describing collective modes. Particle creation and annihilation operators: Commutation relations for Bosons and Fermions. Second quantization. Equivalence with the many body Schroedinger Equation. Identical Conserved particles in equilibrium and thermodynamic properties, Simple Examples of Second Quantization, Bosonic and Fermionic systems. Cooper instability and BCS Hamiltonian, Mean field description of BCS condensate, Quasiparticle excitation and Bogoliubov de-Gennes theory. Phase transition and broken symmetry, order parameter concept, Landau theory and Landau Ginzburg theory and some examples from condensed matter Spin systems and magnetism, Heitler London theory and Heisenberg model, Ferromagnets, Spin waves, Antiferromagnets, Spin-chains."
+    },
+    {
+        "code": "TXL785",
+        "name": "Heat and Mass Transport in Fibrous Materials",
+        "prereqs": "TXL111 || TXL221",
+        "overlap": "",
+        "credits": 0,
+        "hours": {
+            "lecture": 0,
+            "tutorial": 0,
+            "practical": 0
+        },
+        "description": "Credits: 3 (3-0-0) Newtonian and non-Newtonian fluid, viscosity, Reynolds number, Bernoulli equation, Fluid flow through pipe; Thermal conduction through fibrous media- Fourier's law, thermal conductivity, steady state heat conduction, Effective thermal conductivity for fibrous materials; Convective heat transfer through fibrous media- the concept of heat transfer coefficient, macroscopic equations governing heat and mass transfer in textile material, generalized Darcy's law, mass and energy conservation, thermodynamic relations; Surface tension, wetting and wicking in a fibrous material; Moisture diffusion, estimation of ventilation rate, heat and moisture transport in clothing by ventilation; Phase change in textile- moisture condensation and evaporation; Air filtration using fibrous media-Fibre size effect, SFFE."
+    },
+    {
+        "code": "TXL786",
+        "name": "Technology of Textile Coating and Lamination",
+        "prereqs": "(TXL747 || TXL753 || TXL749)",
+        "overlap": "",
+        "credits": 3.0,
+        "hours": {
+            "lecture": 2,
+            "tutorial": 0,
+            "practical": 2
+        },
+        "description": "TXL242, TXP241, TXP242 for TT1 Materials for coating: Polymers, textile materials. Adhesives Compounding of polymers for coating, Methods of Coating, Films for lamination, Methods of lamination, Technical Products based on coating/lamination Coated and laminated textile products, Environmental aspects of coating/lamination Laboratory experiments includes coating of fabric with PVC, Pu, acrylic, EVA, Silicones, PTFE polymers, rubber coating etc., Basic lamination with films. TXT800: Industrial Summer Training Non-Credit Mandatory for TCP Non-Credit course. The students will be required to undergo summer internship in a textile industry and present the experience of internship."
+    },
+    {
+        "code": "SBL751",
+        "name": "Chemical and Molecular Foundations of Cell",
+        "prereqs": "(SBL100 && SBL201) && EC75",
+        "overlap": "",
+        "credits": 3.0,
+        "hours": {
+            "lecture": 3,
+            "tutorial": 0,
+            "practical": 0
+        },
+        "description": "Protein conformation, dynamics and function, Enzyme activity, Biomolecular interactions in cell, biomolecular assemblies in the cell, Generation and storage of metabolic energy, Biosynthesis of macromolecular precursors like, amino acids, lipids, hormones, nucleotides, Characterisation and identification of cells, Genes, genomics and chromosomes, Genetic material, DNA replication, Repair, Translation, Mutagenesis, mutations and mutants, Plasmid and transposable element, Recombinant DNA and genetic engineering, Protein targeting into membranes and organelles, Vesicular traffic, secretion, and endocytosis, Cellular organization of movement, microtubules, Eukaryotic cell cycle, functions and mode of action of nucleus, Nerve cells, Immune response, Evolution of cells, prebiotic synthesis, RNA catalysis, evolution of gene structure, Epigenetics, Non-coding RNA, Hologenome."
+    }
+]
