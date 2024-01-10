@@ -8,6 +8,7 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
+  base: '/IIT_course_planner/',
   define: {
     global: 'window',
   },
