@@ -109,40 +109,50 @@
             "MLL100",
             "APL106",
             "APL104",
-            "SBL100"
+            "APL101",
+            "SBL100",
+            "HUL2XX"
         ],
         [
-            "CVL100",
+            "APL103",
             "MTL107",
             "ELL201",
             "COL106",
             "APL206",
-            "APL103"
+            "CVL100"
         ],
         [
             "APL203",
+            "APL205",
             "APL302",
             "AMP262",
             "APL207",
-            "APL205",
-            "APL380"
+            "APL380",
+            "HUL2XX"
         ],
         [
             "APL311",
             "APL405",
             "APL331",
             "APL321",
-            "OC"
+            "OC1",
+            "HUL2XX"
         ],
         [
             "APL361",
-            "DE",
+            "APL390",
+            "DE1",
+            "DE2",
+            "HUL3XX",
             "APL410",
             "APD411"
         ],
         [
-            "DE",
-            "OC"
+            "DE3",
+            "DE4",
+            "OC2",
+            "OC3",
+            "OC4"
         ]
     ]
 }

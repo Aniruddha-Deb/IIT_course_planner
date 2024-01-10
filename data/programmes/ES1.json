@@ -103,39 +103,40 @@
             "CMP100"
         ],
         [
-            "ESL341",
-            "CVL100",
-            "ESL200",
+            "ESL260",
+            "ESL220",
+            "MCL140",
             "HUL2XX",
+            "ESL100",
             "ESL261"
         ],
         [
-            "ESL341",
-            "CVL100",
-            "ESL262",
-            "ESL200",
+            "MLL100",
             "APL105",
+            "ESL200",
+            "ESL262",
+            "SBL100",
             "HUL2XX"
         ],
         [
-            "ESL341",
             "CVL100",
+            "ESL280",
             "ESL263",
-            "ESL352",
-            "MCL242",
-            "ESL390"
+            "ESL370",
+            "ESL341",
+            "MCL242"
         ],
         [
             "ESP300",
             "ESP260",
+            "HUL2XX",
             "ESL371",
             "ESL352",
-            "ESL390",
-            "HUL2XX",
-            "ESL400"
+            "ESL361",
+            "ESL373"
         ],
         [
-            "DE",
+            "DE1",
             "ESL372",
             "ESL390",
             "HUL2XX",
@@ -143,8 +144,11 @@
             "ESL400"
         ],
         [
-            "DE",
-            "OC"
+            "DE2",
+            "DE3",
+            "OC1",
+            "OC2",
+            "OC3"
         ]
     ]
 }

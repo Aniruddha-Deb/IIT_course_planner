@@ -98,48 +98,55 @@
             "CMP100"
         ],
         [
+            "MLL100",
             "TXL111",
-            "CVL100",
             "TXL130",
-            "HUL2XX",
-            "MLL100"
+            "APL103",
+            "CVL100",
+            "HUL2XX"
         ],
         [
-            "TXP231",
-            "TXP221",
-            "TXL221",
             "TXL211",
-            "APL105",
+            "TXL221",
             "TXL231",
+            "TXL241",
+            "TXP221",
+            "TXP231",
             "TXP241",
+            "APL105",
             "SBL100"
         ],
         [
-            "TXL222",
-            "TXL242",
             "TXL212",
-            "TXP242",
-            "HUL2XX",
+            "TXL222",
             "TXL232",
+            "TXL242",
+            "HUL2XX",
             "TXP222",
-            "TXP232"
+            "TXP232",
+            "TXP242"
         ],
         [
-            "TXP212",
-            "DE",
+            "DE1",
             "TXL361",
             "TXL371",
+            "TXL372",
+            "TXP212",
             "TXP361",
-            "HUL2XX",
-            "TXL372"
+            "HUL2XX"
         ],
         [
             "HUL3XX",
-            "DE"
+            "DE2",
+            "TXD411",
+            "DE3",
+            "DE4"
         ],
         [
-            "DE",
-            "OC"
+            "DE5",
+            "OC1",
+            "OC2",
+            "OC3"
         ]
     ]
 }

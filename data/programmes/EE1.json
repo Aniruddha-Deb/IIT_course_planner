@@ -95,7 +95,9 @@
             "ELL205",
             "ELL202",
             "COL106",
-            "ELL203"
+            "ELL203",
+            "ELL211",
+            "HUL2XX"
         ],
         [
             "MTL106",
@@ -115,25 +117,27 @@
             "ELP212"
         ],
         [
-            "DE",
+            "DE1",
             "PYL102",
             "MCL142",
             "ELL303",
+            "ELP311",
             "HUL2XX",
             "ELP302",
             "ELP305"
         ],
         [
             "ELD411",
-            "DE",
+            "DE2",
             "ELP303",
-            "OC",
+            "OC1",
             "HUL2XX"
         ],
         [
             "HUL3XX",
-            "DE",
-            "OC"
+            "DE3",
+            "OC2",
+            "OC3"
         ]
     ]
 }
