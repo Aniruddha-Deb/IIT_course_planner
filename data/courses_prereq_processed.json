@@ -10220,7 +10220,7 @@
     {
         "code": "ELP303",
         "name": "Power Engineering Laboratory",
-        "prereqs": "[ELP303]",
+        "prereqs": "[ELL303]",
         "overlap": "",
         "credits": 1.5,
         "hours": {

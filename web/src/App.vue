@@ -1,47 +1,65 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
-</script>
-
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
+  <div id="app">
+    <table>
+      <tbody>
+          <tr class="container" v-for="(semester, index) in recommended" :key="index">
+          <td>Sem {{ index + 1 }}</td>
+          <td>
+              <div class="container" v-dragula="semester" bag="schedule">
+                  <div class="course-card" v-for="courseCode in semester" :key="courseCode">{{courseCode}}</div>
+              </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </template>
 
-<style scoped>
-header {
-  line-height: 1.5;
+<script setup>
+import { ref, onMounted, computed } from 'vue';
+import { parse } from './parser/parser.js';
+
+// TODO rendering dependency arrows based on parsed data
+
+const program = ref(null);
+const courses = ref([]);
+
+onMounted(async () => {
+  try {
+    const response = await fetch('data/programmes/EE1.json');
+    const data = await response.json();
+    program.value = data;
+    courses.value = Object.values(data.courses).flat();
+  } catch (error) {
+    console.error(error);
+  }
+});
+
+const recommended = computed(() => {
+  return program.value ? program.value.recommended : [];
+});
+</script>
+
+<style>
+table {
+  border-collapse: collapse;
+  width: 100%;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
 }
 
-@media (min-width: 1024px) {
-  header {
+.container {
     display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
+    flex-direction: horizontal;
+}
 
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
+.course-card {
+    width: 80px;
+    padding: 5px;
 }
 </style>

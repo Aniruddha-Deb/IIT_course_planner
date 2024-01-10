@@ -62,7 +62,7 @@ def next_token(prompt: mx.array, model: Mistral, cache: Optional[mx.array] = Non
         y = sample(logits.squeeze(1), temp)
         yield y
 
-def generate(prompts: list[str], model: Mistral, tokenizer: Tokenizer, cache: Optional[mx.array] = None,
+def generate(prompt: list[str], model: Mistral, tokenizer: Tokenizer, cache: Optional[mx.array] = None,
              temp: float = 0.0, limit: int = 512,
              break_tok: Optional[int] = None):
     prompt = mx.array(tokenizer.batch_encode(prompt))

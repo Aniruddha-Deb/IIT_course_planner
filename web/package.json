@@ -9,7 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.3.11"
+    "jison": "^0.4.18",
+    "vue": "^3.3.11",
+    "vue3-dragula": "^1.0.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.5.2",

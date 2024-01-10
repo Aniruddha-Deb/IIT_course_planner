@@ -3,4 +3,10 @@ import './assets/main.css'
 import { createApp } from 'vue'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+import { VueDragula } from 'vue3-dragula';
+
+const vueApp = createApp(App);
+
+vueApp.use(VueDragula);
+
+vueApp.mount('#app')

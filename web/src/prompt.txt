@@ -1,0 +1,114 @@
+Write a Vue3 App.vue that loads the 'data/programmes/[program].json' file from the server and displays the recommended courses in a table whose rows are semesters and columns are courses. The format of an example program JSON file is given below. 
+
+{
+    "code": "AM1",
+    "name": "Bachelor of Technology in Engineering and Computational Mechanics",
+    "dual": false,
+    "credits": {
+        "BS": 24,
+        "EAS": 19,
+        "HuSS": 15,
+        "PL": 12.5,
+        "DC": 65.5,
+        "DE": 12.0,
+        "OC": 10.0
+    },
+    "courses": {
+        "PL": [
+            "MTL107",
+            "COL106",
+            "ELL201"
+        ],
+        "DC": [
+            "APL101",
+            "MLL100",
+            ...
+        ],
+        "DE": [
+            "APV303",
+            "APL306",
+            "APL340",
+            ...
+        ]
+    },
+    "recommended": [
+        [
+            "ELL101",
+            "ELP101",
+            "MCP100",
+            "PYL101",
+            "MTL100",
+            "PYP100",
+            "MCP101"
+        ],
+        [
+            "APL100",
+            "COL100",
+            "CML101",
+            "MTL101",
+            "CMP100"
+        ],
+        [
+            "MLL100",
+            "APL106",
+            "APL104",
+            "SBL100"
+        ],
+        [
+            "CVL100",
+            "MTL107",
+            "ELL201",
+            "COL106",
+            "APL206",
+            "APL103"
+        ],
+        [
+            "APL203",
+            "APL302",
+            "AMP262",
+            "APL207",
+            "APL205",
+            "APL380"
+        ],
+        [
+            "APL311",
+            "APL405",
+            "APL331",
+            "APL321",
+            "OC"
+        ],
+        [
+            "APL361",
+            "DE",
+            "APL410",
+            "APD411"
+        ],
+        [
+            "DE",
+            "OC"
+        ]
+    ]
+}
+
+The table should look like this:
+```
++-------+--------+--------+--------+
+| Sem 1 | MTL100 | CML101 | APL100 |
++-------+--------+--------+--------+
+| Sem 2 | PYL100 | COL100 | ELL101 |
++-------+--------+--------+--------+
+| Sem 3 | APL104 | COL106 | MLL100 |
++-------+--------+--------+--------+
+| Sem 4 |   ..   |   ..   |   ..   |
++-------+--------+--------+--------+
+| Sem 5 |   ..   |   ..   |   ..   |
++-------+--------+--------+--------+
+| Sem 6 |        |        |        |
++-------+--------+--------+--------+
+| Sem 7 |        |        |        |
++-------+--------+--------+--------+
+| Sem 8 |        |        |        |
++-------+--------+--------+--------+
+```
+
+Include the course code in the table.
