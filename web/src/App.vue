@@ -1,3 +1,37 @@
+<script setup>
+import { ref, onMounted, computed, watch } from 'vue';
+import { parse } from './parser/parser.js';
+
+const program = ref(null);
+const courses = ref([]);
+const selectedCourse = ref('AM1');
+
+async function update_table(course) {
+  try {
+    const response = await fetch(`data/programmes/${course}.json`);
+    const data = await response.json();
+    program.value = data;
+    courses.value = Object.values(data.courses).flat();
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+watch(selectedCourse, (newValue, oldValue) => {
+  if (newValue !== oldValue) {
+    update_table(newValue);
+  }
+});
+
+onMounted(async () => {
+  update_table(selectedCourse.value);
+});
+
+const recommended = computed(() => {
+  return program.value ? program.value.recommended : [];
+});
+</script>
+
 <template>
   <div id="app">
     <select v-model="selectedCourse">
@@ -19,77 +53,58 @@
       <option value="PH1">PH1</option>
       <option value="TT1">TT1</option>
     </select>
-    <table>
-      <tbody>
-          <tr class="container" v-for="(semester, index) in recommended" :key="index">
-          <td>Sem {{ index + 1 }}</td>
-          <td>
-              <div class="container" v-dragula="semester" bag="schedule">
-                  <div class="course-card" v-for="courseCode in semester" :key="courseCode">{{courseCode}}</div>
-              </div>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+    <div class="course-container">
+      <div class="course-row wrapper" v-for="(semester, index) in recommended" :key="index">
+        <div class="course-label">Sem {{ index + 1 }}</div>
+        <div class="course-cards container" v-dragula="semester" bag="schedule">
+          <div class="course-card" v-for="courseCode in semester" :key="courseCode">{{ courseCode }}</div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
-<script setup>
-import { ref, onMounted, computed, watch } from 'vue';
-import { parse } from './parser/parser.js';
-
-// TODO rendering dependency arrows based on parsed data
-
-const program = ref(null);
-const courses = ref([]);
-const selectedCourse = ref('AM1');
-
-async function update_table(course) {
-  try {
-    const response = await fetch(`data/programmes/${course}.json`);
-    const data = await response.json();
-    program.value = data;
-    courses.value = Object.values(data.courses).flat();
-  } catch (error) {
-    console.error(error);
-  }
-}
-
-watch(selectedCourse, (newValue, oldValue) => {
-    if (newValue !== oldValue) {
-        update_table(newValue);
-    }
-});
-
-onMounted(async () => {
-  update_table(selectedCourse.value);
-});
-
-const recommended = computed(() => {
-  return program.value ? program.value.recommended : [];
-});
-</script>
-
 <style>
-table {
-  border-collapse: collapse;
+.course-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
   width: 100%;
 }
 
-th,
-td {
-  border: 1px solid black;
-  padding: 8px;
-  text-align: left;
+.course-row {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  width: 100%;
 }
 
-.container {
-    display: flex;
-    flex-direction: horizontal;
+.course-label {
+  padding: 8px;
+  flex-weight: 1;
+  text-align: center;
+  writing-mode: vertical-lr;
+  border: 1px solid black;
+  border-radius: 5px 0 0 5px;
+}
+
+.course-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  width: 100%;
 }
 
 .course-card {
-    width: 80px;
-    padding: 5px;
+  width: 100px;
+  height: 60px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  user-select: none;
 }
+
 </style>
