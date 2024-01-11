@@ -23,4 +23,5 @@ expr: expr AND expr {$$ = new And($1, $3);}
     | expr OR expr {$$ = new Or($1, $3);}
     | LBRACKET expr RBRACKET {$$ = $2;}
     | TERM {$$ = yytext;}
+    | /* epsilon */
     ;
