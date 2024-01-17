@@ -1,7 +1,10 @@
 <script setup>
 import { ref, onMounted, computed, watch, getCurrentInstance } from 'vue';
 import { And, Or, parse } from './parser/parser.js';
-import { LinePath } from 'svg-dom-arrows';
+import LeaderLine from 'leader-line-new';
+import { VueDragulaGlobal } from 'vue3-dragula';
+
+// ? what do braces do in an import statement?
 
 const instance = getCurrentInstance();
 const program = ref(null);
@@ -11,6 +14,9 @@ const selectedCourse = ref('AM1');
 const renderDeps = ref(false);
 
 const dep_arrows = ref([]);
+var arrow_map = new Map();
+var current_course_dragged = null;
+var drag_updater = null;
 
 async function update_course_db() {
   try {
@@ -42,94 +48,103 @@ watch(selectedCourse, (newValue, oldValue) => {
   }
 });
 
-function createMarker() {
-  const arrow = document.createElementNS("http://www.w3.org/2000/svg", 'path');
-  const marker = document.createElementNS("http://www.w3.org/2000/svg", 'marker');
+VueDragulaGlobal.eventBus.on('drag', function (el, container, source) {
+  var drag_class = document.getElementsByClassName('gu-mirror')[0];
+  console.log(drag_class);
+  current_course_dragged = el[1].__vnode.key;
+  if (renderDeps.value) {
+    drag_updater = setInterval( () => {
+      arrow_map.get(current_course_dragged).forEach(arrow => {
+        arrow.path.position()
+      });
+    }, 50);
+  }
+});
 
-  arrow.setAttribute('d', 'M 0 0 L 10 5 L 0 10 z');
-  arrow.setAttribute('style', 'fill:#ffffff55;stroke-width:0.801524;stroke-miterlimit:4;stroke-dasharray:none');
+VueDragulaGlobal.eventBus.on('dragend', function (el, container, source) {
+  current_course_dragged = null;
+  if (renderDeps.value) {
+    clearInterval(drag_updater);
+  }
+});
 
-  marker.setAttribute('id', 'marker1'); // <== Make sure to set an id attribute
-  /**
-   * The below attributes and values are specific to this marker, you'll have to know how markers work
-   * to really do something fun. For now you'll have to deal with it manually but I might work on an SVG
-   * marker utility.
-   */
-  marker.setAttribute('refX', '5');
-  marker.setAttribute('refY', '5');
-  marker.setAttribute('viewBox', '0 0 10 10');
-  marker.setAttribute('orient', 'auto-start-reverse'); // <== There is a trick here, be sure to read after the code snippet
-  marker.setAttribute('markerWidth', '3');
-  marker.setAttribute('markerHeight', '3');
-  marker.appendChild(arrow);
+function attach_course_arrows(code, div) {
 
-  return marker;
-};
+}
+
+function drop_course_arrows(code, div) {
+
+}
+
+// drag and drop:
+// - Disconnect prior course arrows (both outward and inward)
+// - Attach new course arrows 
+// 
+// TODO find a better representation of the graph... AND/OR might complicate?
+// Just do this via an adjacency list graph. Won't need to recompute the edges
+
+function get_course_deps(item) {
+  var deps = parse(courses.value[item].prereqs);
+  // console.log(deps);
+  // for now, just flatten the tree down. Will think about how to represent 
+  // AND/OR later.
+  var dep_courses = [];
+  var stack = [deps];
+  while (stack.length > 0) {
+    const t = stack.pop();
+    if (t instanceof And) {
+      stack.push(t.left);
+      stack.push(t.right);
+    } 
+    else if (t instanceof Or) {
+      stack.push(t.left);
+      stack.push(t.right);
+    } 
+    else if (typeof t === 'string') {
+      dep_courses.push(t);
+    }
+  }
+  return dep_courses;
+}
 
 function toggle_deps() {
   var newValue = renderDeps.value;
   if (newValue === true) {
+    arrow_map = new Map();
+    program.value.recommended.flat().forEach(item => {
+      arrow_map.set(item, []);
+    });
     program.value.recommended.flat().forEach(item => {
       if (!(item in courses.value)) {
         return;
       }
-      var deps = parse(courses.value[item].prereqs);
-      // console.log(deps);
-      // for now, just flatten the tree down. Will think about how to represent 
-      // AND/OR later.
-      var dep_courses = [];
-      var stack = [deps];
-      while (stack.length > 0) {
-        const t = stack.pop();
-        if (t instanceof And) {
-          stack.push(t.left);
-          stack.push(t.right);
-        } 
-        else if (t instanceof Or) {
-          stack.push(t.left);
-          stack.push(t.right);
-        } 
-        else if (typeof t === 'string') {
-          dep_courses.push(t);
-        }
-      }
+      var dep_courses = get_course_deps(item);
       dep_courses.forEach(dep => {
         if (!(curr_courses.value.has(dep))) {
           console.log(`${dep} not in curr_courses`);
           return;
         }
         var options = {
-          start: {
-            element: instance.refs[item][0],
-            position: {
-              top: 0,
-              left: 0.5
-            },
-            markerId: '#marker1'
-          },
-          end: {
-            element: instance.refs[dep][0],
-            position: {
-              top: 0.8,
-              left: 0.5
-            }
-          },
-          style: 'stroke:#ffffff55;stroke-width:4;fill:transparent',
-          appendTo: document.body,
-          markers: [createMarker()]
+          color: '#ffffff55',
+          path: 'straight'
         }
-        var linePath = new LinePath(options);
-        linePath.containerDiv.style['pointer-events'] = 'none';
-        dep_arrows.value.push(linePath);
+        var arrow_path = new LeaderLine(instance.refs[dep][0], instance.refs[item][0], options);
+        var arrow = {
+          src: dep,
+          tgt: item,
+          path: arrow_path
+        }
+        arrow_map.get(dep).push(arrow);
+        arrow_map.get(item).push(arrow);
       });
     });
   }
   else {
-    console.log('removing arrows');
-    dep_arrows.value.forEach(item => {
-      item.containerDiv.remove();
+    var all_arrows = [];
+    arrow_map.forEach((value, key) => all_arrows.push(value));
+    new Set(all_arrows.flat()).forEach(item => {
+      item.path.remove();
     });
-    dep_arrows.value.splice(0, dep_arrows.value.length);
   }
 }
 
